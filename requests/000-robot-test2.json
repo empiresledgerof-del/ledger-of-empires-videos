@@ -1,0 +1,7 @@
+{"id": "000-robot-test2", "orient": "landscape", "items": [
+ {"name": "c1", "q": "tulip mania", "kind": "commons"},
+ {"name": "c2", "q": "Semper Augustus tulip", "kind": "commons"},
+ {"name": "c3", "q": "Amsterdam 17th century painting", "kind": "commons"},
+ {"name": "v1", "q": "tulip field", "kind": "video"},
+ {"name": "p1", "q": "old coins table", "kind": "photo"}
+]}
