@@ -1,0 +1,16 @@
+{
+ "id": "001s-tulip-short", "format": "short", "related_long": "001-tulip-mania",
+ "title": "Tulip Mania: The Flower Worth 17 Years of Wages 🌷",
+ "voice": "bm_lewis", "speed": 1.0,
+ "scenes": [
+  {"mood": "tension", "hook": "WORTH 17 YEARS OF WAGES", "say": "This flower once cost more than a craftsman earned in seventeen years.", "shots": ["s7_0.jpg#pan=in"]},
+  {"mood": "tension", "say": "February, sixteen thirty-seven. One tulip bulb sold for five thousand two hundred guilders.", "shots": ["s0_1.mp4@1", "s0_2.png"]},
+  {"mood": "tension", "say": "Dutch traders bought bulbs they had never seen, in taverns, on promises.", "shots": ["s13_2.jpg", "s13_1.mp4@1"]},
+  {"mood": "lament", "say": "Then one day in Haarlem, nobody bid. Within days, the market was gone.", "shots": ["s30_1.jpg", "s21_2.mp4@1"]},
+  {"mood": "lament", "say": "The twist? The story of a ruined nation is mostly a legend, written two hundred years later.", "shots": ["s24_1.mp4@1", "s2_1.jpg"]},
+  {"mood": "lament", "say": "Would you have sold your bulb, or held it?", "shots": ["s7_0.jpg#pan=out"]}
+ ],
+ "thumbs": [{"image": "s7_0.jpg", "lines": ["WORTH 17", "YEARS OF PAY"], "accent": 1}],
+ "tags": ["tulip mania", "history", "money", "financial history", "shorts", "bubble"],
+ "first_comment": "Sell or hold? 🌷👇"
+}

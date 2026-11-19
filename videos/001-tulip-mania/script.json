@@ -100,7 +100,6 @@
    ],
    "shots": [
     "s4_0.jpg",
-    "s4_1.jpg",
     "s4_2.mp4@1"
    ]
   },
@@ -142,7 +141,7 @@
    "shots": [
     "s6_0.jpg",
     "s6_1.jpg",
-    "s6_2.mp4@1"
+    "s4_2.mp4@4"
    ]
   },
   {
@@ -185,8 +184,9 @@
     }
    ],
    "shots": [
-    "s8_0.mp4@1",
-    "s8_1.jpg"
+    "s8_1.jpg",
+    "s7_2.jpg",
+    "s0_0.jpg#pan=in"
    ]
   },
   {
@@ -199,7 +199,8 @@
     }
    ],
    "shots": [
-    "s9_0.mp4@1"
+    "s9_0.mp4@1",
+    "s15_0.jpg"
    ]
   },
   {
@@ -246,8 +247,7 @@
     }
    ],
    "shots": [
-    "s12_0.mp4@1",
-    "s12_1.jpg"
+    "s12_0.mp4@1"
    ]
   },
   {
@@ -352,9 +352,9 @@
     }
    ],
    "shots": [
-    "s18_0.jpg",
-    "s18_1.jpg",
-    "s18_2.mp4@1"
+    "s0_2.png",
+    "s18_2.mp4@1",
+    "s16_0.jpg"
    ]
   },
   {
@@ -390,7 +390,8 @@
    ],
    "shots": [
     "s20_0.jpg",
-    "s20_1.mp4@1"
+    "s30_1.jpg",
+    "s2_0.mp4@1"
    ]
   },
   {
@@ -430,7 +431,8 @@
     }
    ],
    "shots": [
-    "s22_0.jpg"
+    "s22_0.jpg",
+    "s14_1.jpg"
    ]
   },
   {
@@ -604,12 +606,42 @@
     }
    ],
    "shots": [
-    "s33_0.jpg",
+    "s33_0.png",
     "s33_1.jpg"
    ]
   }
  ],
- "thumbs": [],
+ "thumbs": [
+  {
+   "image": "s7_0.jpg",
+   "lines": [
+    "WORTH",
+    "A HOUSE?"
+   ],
+   "accent": 1,
+   "side": "left"
+  },
+  {
+   "image": "s14_1.jpg",
+   "lines": [
+    "THE FLOWER",
+    "BUBBLE"
+   ],
+   "accent": 1,
+   "side": "left",
+   "focus": "right"
+  },
+  {
+   "image": "s2_1.jpg",
+   "lines": [
+    "ONE BULB =",
+    "HALF A MANSION"
+   ],
+   "accent": 1,
+   "side": "left",
+   "focus": "right"
+  }
+ ],
  "description_intro": "Tulip mania (1637): how a single tulip bulb came to cost more than a craftsman earned in years, why the market collapsed in a few days in February 1637, and why the famous version of the story is exaggerated.",
  "sources": [
   "Anne Goldgar, Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age (2007)",

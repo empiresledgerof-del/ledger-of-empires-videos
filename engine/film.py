@@ -399,6 +399,22 @@ def build_audio(timeline, bd, music_dir, tracks_meta, used_recent, total, short)
 
 
 # ---------------------------------------------------------------- main render
+def fit_size(path, limit_mb=95):
+    """Cloudinary free plan and GitHub both cap files at 100 MB: 2-pass re-encode to fit if needed."""
+    path = Path(path)
+    if path.stat().st_size <= limit_mb * 1e6: return False
+    d = media_dur(path); a_k = 160
+    v_k = int((limit_mb * 8e6 * 0.97 / d) / 1000) - a_k
+    tmp = path.with_suffix(".fit.mp4"); log = str(path.parent / "_2pass")
+    base = ["ffmpeg", "-loglevel", "error", "-y", "-i", path, "-c:v", "libx264", "-preset", "medium", "-b:v", f"{v_k}k",
+            "-maxrate", f"{int(v_k * 1.6)}k", "-bufsize", f"{v_k * 3}k", "-pix_fmt", "yuv420p", "-passlogfile", log]
+    sh(*base, "-pass", "1", "-an", "-f", "mp4", "/dev/null")
+    sh(*base, "-pass", "2", "-c:a", "aac", "-b:a", f"{a_k}k", "-movflags", "+faststart", tmp)
+    tmp.replace(path)
+    for f in path.parent.glob("_2pass*"): f.unlink()
+    return True
+
+
 def render(spec, bd, stock_dir, music_dir, out, voice_wavs, used_recent=(), seed=7):
     random.seed(seed); rng = random.Random(seed)
     short = spec.get("format") == "short"
@@ -445,6 +461,7 @@ def render(spec, bd, stock_dir, music_dir, out, voice_wavs, used_recent=(), seed
     sub = f"subtitles={bd / 'captions.ass'}:fontsdir={FONTS}"
     sh("ffmpeg", "-loglevel", "error", "-y", "-i", bd / "video_raw.mp4", "-i", bd / "mix.wav", "-vf", sub,
        *X264, "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", out)
+    fit_size(out)
     chapters = [{"t": 0.0, "title": spec.get("cold_open_title", "Intro")}]
     cards = [s_ for s_ in timeline if s_["kind"] == "card"]
     titles = [sc["card"]["title"] for sc in spec["scenes"] if "card" in sc]
