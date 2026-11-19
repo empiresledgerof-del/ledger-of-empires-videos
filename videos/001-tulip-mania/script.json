@@ -1,0 +1,537 @@
+{
+ "id": "001-tulip-mania",
+ "format": "long",
+ "series": "The Rise and Fall",
+ "pillar": "bubbles-crashes",
+ "title": "Tulip Mania: When One Flower Cost More Than a House",
+ "title_options": [
+  "Tulip Mania: When One Flower Cost More Than a House",
+  "Tulip Mania: The First Bubble Wasn't What You Think",
+  "Tulip Mania: How a Flower Became Worth a Fortune",
+  "The Tulip Bubble of 1637, Explained"
+ ],
+ "voice": "bm_george",
+ "speed": 0.95,
+ "cold_open_title": "A bulb for 5,200 guilders",
+ "scenes": [
+  {
+   "mood": "tension",
+   "hook": "ONE BULB. 5,200 GUILDERS.",
+   "say": "February, sixteen thirty-seven. In a crowded hall in the Dutch town of Alkmaar, an auctioneer holds up a single tulip bulb. Not a flower. A bulb, the brown, papery thing you would find in a garden shop. It sells for five thousand two hundred guilders.",
+   "find": [
+    {
+     "q": "Semper Augustus tulip",
+     "kind": "commons"
+    },
+    {
+     "q": "tulip bulbs",
+     "kind": "video"
+    },
+    {
+     "q": "Dutch auction 17th century painting",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "At the time, a skilled craftsman might earn around three hundred guilders in a whole year. Two days later, the buyers vanish. And the strangest part? The most famous version of this story is not even true.",
+   "stat": {
+    "value": 5200,
+    "suffix": " guilders",
+    "label": "for one tulip bulb, Alkmaar, 5 February 1637"
+   },
+   "find": [
+    {
+     "q": "old dutch coins",
+     "kind": "photo"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "So how did a flower drive a whole country into a frenzy? Why did it end in just a few days? And what really happened to the people caught in the middle? Let's open the ledger.",
+   "find": [
+    {
+     "q": "candle dark old room",
+     "kind": "video"
+    },
+    {
+     "q": "Jan Brueghel tulip mania satire",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter 1",
+    "title": "A Flower From the Sultan's Garden"
+   },
+   "mood": "mystery"
+  },
+  {
+   "mood": "mystery",
+   "say": "The tulip was not Dutch at all. It came from the Ottoman Empire, where sultans grew it in their palace gardens and it became a symbol of power and wealth.",
+   "find": [
+    {
+     "q": "Topkapi Palace Istanbul",
+     "kind": "commons"
+    },
+    {
+     "q": "Suleiman the Magnificent portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "red tulips close up",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "In the fifteen fifties, a Flemish diplomat at the Ottoman court, Ogier Ghiselin de Busbecq, is usually credited with sending tulips west. They reached a brilliant botanist named Carolus Clusius.",
+   "find": [
+    {
+     "q": "Ogier Ghiselin de Busbecq portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "Carolus Clusius portrait",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "In fifteen ninety-three, Clusius moved to the city of Leiden to run the university's new botanical garden, and he brought his tulips with him. The flowers survived the cold, wet Dutch weather, and people who saw them wanted them. Badly. The story goes that thieves broke into his garden and stole bulbs, and those stolen bulbs helped start the Dutch tulip trade.",
+   "find": [
+    {
+     "q": "Hortus Botanicus Leiden engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "Leiden 17th century painting",
+     "kind": "commons"
+    },
+    {
+     "q": "tulip garden",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "But one kind of tulip was worth far more than the rest. Sometimes a plain red or purple tulip would suddenly bloom with flames and feathers of colour, like this one, the legendary Semper Augustus. The Dutch called them broken tulips.",
+   "find": [
+    {
+     "q": "Semper Augustus tulip 17th century",
+     "kind": "commons"
+    },
+    {
+     "q": "broken tulip watercolour 17th century",
+     "kind": "commons"
+    },
+    {
+     "q": "tulip book Jacob Marrel",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "Nobody could make it happen on purpose. Growers tried everything. A plain bulb might break into stripes, or it might not, and a broken bulb was weaker and grew fewer offsets. Only in the nineteen twenties did a British scientist, Dorothy Cayley, discover the real cause: a virus, spread by tiny insects called aphids. The most expensive flowers in Europe were, in a sense, sick.",
+   "find": [
+    {
+     "q": "aphids on plant",
+     "kind": "video"
+    },
+    {
+     "q": "striped tulip",
+     "kind": "photo"
+    },
+    {
+     "q": "Semper Augustus watercolour",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "Rare, beautiful, impossible to copy, and slow to multiply. That is the perfect recipe for something people will pay almost anything for.",
+   "find": [
+    {
+     "q": "tulips sunlight field",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter 2",
+    "title": "Trading the Wind"
+   },
+   "mood": "triumph"
+  },
+  {
+   "mood": "triumph",
+   "say": "The Dutch Republic in the sixteen thirties was one of the richest places on Earth. Its ships traded across the world, and merchants had money to spend on beautiful, rare things. Owning a rare tulip was like owning a fine painting.",
+   "find": [
+    {
+     "q": "Dutch ships 17th century painting",
+     "kind": "commons"
+    },
+    {
+     "q": "Amsterdam canal houses 17th century painting",
+     "kind": "commons"
+    },
+    {
+     "q": "Dutch merchant portrait 17th century",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "But tulips only bloom in spring, and the bulbs stay in the ground most of the year. So traders started signing contracts to buy a bulb later, when it could be lifted from the soil. They were trading a promise, not a flower.",
+   "find": [
+    {
+     "q": "quill pen writing old paper",
+     "kind": "video"
+    },
+    {
+     "q": "notary 17th century painting",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "By the summer of sixteen thirty-six, this trade moved into taverns. Groups of dealers met in back rooms they called colleges, bid on contracts over drinks, and paid a small fee known as wine money. Often nobody paid anything up front, and nobody had to show that they owned a bulb at all.",
+   "find": [
+    {
+     "q": "Dutch tavern painting Jan Steen",
+     "kind": "commons"
+    },
+    {
+     "q": "candle tavern night",
+     "kind": "video"
+    },
+    {
+     "q": "Adriaen van Ostade tavern",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "The Dutch even had a name for it: windhandel, the wind trade. Because what was really changing hands was air.",
+   "find": [
+    {
+     "q": "wind field grass",
+     "kind": "video"
+    },
+    {
+     "q": "Floraes Mallewagen Hendrik Pot",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "And then, in the winter of sixteen thirty-six, prices went wild. Even ordinary, unbroken bulbs started selling by the pound. One popular variety called Switsers rose from about one hundred and twenty-five guilders a pound at the end of December to around one thousand five hundred guilders by early February. Twelve times higher in about five weeks.",
+   "stat": {
+    "value": 12,
+    "suffix": "x",
+    "label": "price rise of Switsers bulbs, Dec 1636 to Feb 1637"
+   },
+   "find": [
+    {
+     "q": "tulip bulbs pile",
+     "kind": "photo"
+    }
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "People were not buying tulips to plant them. They were buying them because they believed someone else would pay more tomorrow.",
+   "find": [
+    {
+     "q": "crowd market old painting dutch",
+     "kind": "commons"
+    },
+    {
+     "q": "gold coins falling",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter 3",
+    "title": "Five Days in February"
+   },
+   "mood": "tension"
+  },
+  {
+   "mood": "tension",
+   "say": "Which brings us back to Alkmaar. On the fifth of February, sixteen thirty-seven, about seventy rare bulbs were auctioned for the orphaned children of a tavern owner named Wouter Winckel, who had collected some of the finest tulips in Holland. The best of them, a bulb called the Admirael van Enkhuizen, went for five thousand two hundred guilders. A Viceroy sold for more than four thousand.",
+   "find": [
+    {
+     "q": "Alkmaar 17th century painting",
+     "kind": "commons"
+    },
+    {
+     "q": "Viceroy tulip",
+     "kind": "commons"
+    },
+    {
+     "q": "auction hammer",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "For comparison, one of the finest houses on the canals of Amsterdam could cost around ten thousand guilders. A single bulb was worth half a mansion.",
+   "find": [
+    {
+     "q": "Herengracht Amsterdam painting Berckheyde",
+     "kind": "commons"
+    },
+    {
+     "q": "amsterdam canal houses",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "It was the very top. Within days, in the tulip capital of Haarlem, a routine sale of bulbs went quiet. Sellers named a price, then a lower price, then lower again. Nobody bid.",
+   "find": [
+    {
+     "q": "Haarlem 17th century painting",
+     "kind": "commons"
+    },
+    {
+     "q": "empty room candle",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "Word spread from tavern to tavern. If no one would buy today, then the contracts signed yesterday at sky-high prices were worth almost nothing. Buyers who had promised to pay thousands simply refused. And because these deals were made in taverns, on credit, the sellers had very little they could do.",
+   "find": [
+    {
+     "q": "Dutch tavern interior painting",
+     "kind": "commons"
+    },
+    {
+     "q": "torn paper",
+     "kind": "video"
+    },
+    {
+     "q": "wilting tulip",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "On the twenty-third of February, flower traders from across the country met in Amsterdam to decide what to do. In the end, courts largely refused to treat the tulip contracts as real debts, and most deals were quietly settled or cancelled. The mania was over almost as fast as it began.",
+   "find": [
+    {
+     "q": "Amsterdam 1637 painting",
+     "kind": "commons"
+    },
+    {
+     "q": "Wagon of Fools tulip mania",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter 4",
+    "title": "The Legend Grows"
+   },
+   "mood": "mystery"
+  },
+  {
+   "mood": "mystery",
+   "say": "Now, here is the part most videos leave out. The famous version of this story, where a whole nation was ruined, comes mostly from a book written more than two hundred years later, in eighteen forty-one, by a Scottish journalist named Charles Mackay.",
+   "find": [
+    {
+     "q": "Charles Mackay portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "old book pages",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "Mackay told wonderful stories. A sailor who ate a priceless bulb thinking it was an onion. A Viceroy bulb traded for a mountain of goods: oxen, pigs, sheep, wheat, wine, butter, a thousand pounds of cheese, a bed and a silver cup. Many of these tales came from moral pamphlets written to mock the traders.",
+   "find": [
+    {
+     "q": "17th century still life cheese wine",
+     "kind": "commons"
+    },
+    {
+     "q": "Dutch pamphlet 1637 tulip",
+     "kind": "commons"
+    },
+    {
+     "q": "onion herring still life",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "When the historian Anne Goldgar went through the Dutch archives, she found a much smaller story. Only a few dozen people paid more than three hundred guilders for a bulb, and she could not find evidence that the crash ruined a single person or damaged the Dutch economy. The losses were real, but mostly on paper, and mostly among people who could afford them.",
+   "stat": {
+    "value": 37,
+    "suffix": " people",
+    "label": "paid more than 300 guilders for a bulb, in the records Goldgar found"
+   },
+   "find": [
+    {
+     "q": "archive old documents",
+     "kind": "photo"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "So tulip mania was real. Prices really did explode and then collapse. But the legend grew bigger every time someone retold it. Which is a lesson all by itself.",
+   "find": [
+    {
+     "q": "Allegory of tulip mania",
+     "kind": "commons"
+    },
+    {
+     "q": "tulip field aerial",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "The lesson",
+    "title": "What the Tulips Still Teach Us"
+   },
+   "mood": "reflective"
+  },
+  {
+   "mood": "reflective",
+   "say": "Here is what the tulip traders can still teach us, almost four hundred years later. This is not financial advice, just the pattern history keeps repeating.",
+   "find": [
+    {
+     "q": "hourglass sand",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "First: when the only reason to buy something is that someone else will pay more later, the price does not need a crash to fall. It only needs one day with no new buyer. In Haarlem, that day came in February.",
+   "find": [
+    {
+     "q": "empty market street",
+     "kind": "video"
+    },
+    {
+     "q": "Haarlem Grote Markt painting",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Second: be careful with deals made on promises and borrowed money. The traders who signed contracts with nothing paid up front felt rich right up until they had to pay.",
+   "find": [
+    {
+     "q": "signing contract",
+     "kind": "video"
+    },
+    {
+     "q": "coins on table",
+     "kind": "photo"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "And third: check the story. Every bubble and every crash gets retold with bigger numbers and scarier endings. Before you panic, or before you jump in because everyone else is, look for the real records.",
+   "find": [
+    {
+     "q": "magnifying glass old map",
+     "kind": "photo"
+    },
+    {
+     "q": "library old books",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Next, we will go to London in seventeen twenty, where even Isaac Newton, the man who explained gravity, lost a fortune in a bubble. If you want that story, subscribe to Ledger of Empires. And tell me in the comments: what would you have done with a tulip worth half a mansion?",
+   "find": [
+    {
+     "q": "London 18th century painting",
+     "kind": "commons"
+    },
+    {
+     "q": "Isaac Newton portrait Kneller",
+     "kind": "commons"
+    }
+   ]
+  }
+ ],
+ "thumbs": [],
+ "description_intro": "Tulip mania (1637): how a single tulip bulb came to cost more than a craftsman earned in years, why the market collapsed in a few days in February 1637, and why the famous version of the story is exaggerated.",
+ "sources": [
+  "Anne Goldgar, Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age (2007)",
+  "Peter Garber, Famous First Bubbles (2000) / Journal of Political Economy (1989)",
+  "Encyclopaedia Romana (University of Chicago): Tulipomania, Semper Augustus, Broken Tulips",
+  "Britannica: Tulip; History.com: 'Tulip Mania: The Flowers That Launched a Financial Crash'",
+  "Stefanaki et al., Scientific Reports (2022) on the early history of tulips in Europe"
+ ],
+ "tags": [
+  "tulip mania",
+  "tulip bubble",
+  "financial history",
+  "history of money",
+  "economic bubble",
+  "dutch golden age",
+  "1637",
+  "first financial bubble",
+  "money lessons",
+  "semper augustus",
+  "speculation",
+  "stock market history"
+ ],
+ "first_comment": "If you lived in 1637 and owned a bulb worth half a mansion, would you sell it or hold it? 🌷👇",
+ "facts_checked": {
+  "Clusius brought tulips to Leiden 1593": "Scientific Reports 2022; Royal Museums Greenwich; Europeana",
+  "Busbecq credited, ambassador 1554-1562": "Scientific Reports 2022; Homes & Antiques",
+  "bulbs stolen from Clusius' garden": "Britannica (1596 and 1598); Bakker history page",
+  "broken tulips caused by virus spread by aphids, Dorothy Cayley 1927-28": "Encyclopaedia Romana; Amsterdam Tulip Museum; Country Life",
+  "colleges in taverns, wine money fee, windhandel": "Wikipedia; Mises (Early Speculative Bubbles); iamexpat",
+  "Switsers 125 -> 1,500 guilders per pound Dec 31 1636 - early Feb 1637, 12x": "Encyclopaedia Romana (citing Goldgar); History.com; focus article",
+  "Alkmaar 5 Feb 1637, ~70 bulbs, orphans of Wouter Winckel, Admirael van Enkhuizen 5,200": "Encyclopaedia Romana; Christie's lot note; iamexpat; Today I Found Out",
+  "Viceroy > 4,000 at Alkmaar": "DBNL auction list (4,203); focus article (4,230)",
+  "grand canal houses ~10,000 guilders": "Christie's lot note; Wikipedia (Semper Augustus 10,000, ~price of house)",
+  "craftsman ~300 guilders/year": "History.com (Goldgar); maseconomics (Goldgar)",
+  "Haarlem sale with no bidders, prices lowered": "Wikipedia; Amsterdam Tulip Museum; visimade",
+  "florists met in Amsterdam 23 Feb 1637": "Encyclopaedia Romana; Wikipedia (end of month deliberations in Amsterdam)",
+  "courts refused to enforce": "Amsterdam Tulip Museum (by June courts refused cases); Wikipedia (contracts unenforceable)",
+  "Mackay 1841": "Wikipedia (Extraordinary Popular Delusions); History.com",
+  "sailor/onion and Viceroy goods list are Mackay anecdotes": "byburk; BBC Mundo; gridoasis; infinyte",
+  "Goldgar: 37 people paid >300 guilders; no evidence of ruin": "History.com; byburk"
+ }
+}

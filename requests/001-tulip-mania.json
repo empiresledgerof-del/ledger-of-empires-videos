@@ -1,0 +1,321 @@
+{
+ "id": "001-tulip-mania",
+ "orient": "landscape",
+ "items": [
+  {
+   "name": "s0_0",
+   "q": "Semper Augustus tulip",
+   "kind": "commons"
+  },
+  {
+   "name": "s0_1",
+   "q": "tulip bulbs",
+   "kind": "video"
+  },
+  {
+   "name": "s0_2",
+   "q": "Dutch auction 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_0",
+   "q": "old dutch coins",
+   "kind": "photo"
+  },
+  {
+   "name": "s2_0",
+   "q": "candle dark old room",
+   "kind": "video"
+  },
+  {
+   "name": "s2_1",
+   "q": "Jan Brueghel tulip mania satire",
+   "kind": "commons"
+  },
+  {
+   "name": "s4_0",
+   "q": "Topkapi Palace Istanbul",
+   "kind": "commons"
+  },
+  {
+   "name": "s4_1",
+   "q": "Suleiman the Magnificent portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s4_2",
+   "q": "red tulips close up",
+   "kind": "video"
+  },
+  {
+   "name": "s5_0",
+   "q": "Ogier Ghiselin de Busbecq portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s5_1",
+   "q": "Carolus Clusius portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_0",
+   "q": "Hortus Botanicus Leiden engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_1",
+   "q": "Leiden 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_2",
+   "q": "tulip garden",
+   "kind": "video"
+  },
+  {
+   "name": "s7_0",
+   "q": "Semper Augustus tulip 17th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s7_1",
+   "q": "broken tulip watercolour 17th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s7_2",
+   "q": "tulip book Jacob Marrel",
+   "kind": "commons"
+  },
+  {
+   "name": "s8_0",
+   "q": "aphids on plant",
+   "kind": "video"
+  },
+  {
+   "name": "s8_1",
+   "q": "striped tulip",
+   "kind": "photo"
+  },
+  {
+   "name": "s8_2",
+   "q": "Semper Augustus watercolour",
+   "kind": "commons"
+  },
+  {
+   "name": "s9_0",
+   "q": "tulips sunlight field",
+   "kind": "video"
+  },
+  {
+   "name": "s11_0",
+   "q": "Dutch ships 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s11_1",
+   "q": "Amsterdam canal houses 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s11_2",
+   "q": "Dutch merchant portrait 17th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s12_0",
+   "q": "quill pen writing old paper",
+   "kind": "video"
+  },
+  {
+   "name": "s12_1",
+   "q": "notary 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s13_0",
+   "q": "Dutch tavern painting Jan Steen",
+   "kind": "commons"
+  },
+  {
+   "name": "s13_1",
+   "q": "candle tavern night",
+   "kind": "video"
+  },
+  {
+   "name": "s13_2",
+   "q": "Adriaen van Ostade tavern",
+   "kind": "commons"
+  },
+  {
+   "name": "s14_0",
+   "q": "wind field grass",
+   "kind": "video"
+  },
+  {
+   "name": "s14_1",
+   "q": "Floraes Mallewagen Hendrik Pot",
+   "kind": "commons"
+  },
+  {
+   "name": "s15_0",
+   "q": "tulip bulbs pile",
+   "kind": "photo"
+  },
+  {
+   "name": "s16_0",
+   "q": "crowd market old painting dutch",
+   "kind": "commons"
+  },
+  {
+   "name": "s16_1",
+   "q": "gold coins falling",
+   "kind": "video"
+  },
+  {
+   "name": "s18_0",
+   "q": "Alkmaar 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s18_1",
+   "q": "Viceroy tulip",
+   "kind": "commons"
+  },
+  {
+   "name": "s18_2",
+   "q": "auction hammer",
+   "kind": "video"
+  },
+  {
+   "name": "s19_0",
+   "q": "Herengracht Amsterdam painting Berckheyde",
+   "kind": "commons"
+  },
+  {
+   "name": "s19_1",
+   "q": "amsterdam canal houses",
+   "kind": "video"
+  },
+  {
+   "name": "s20_0",
+   "q": "Haarlem 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s20_1",
+   "q": "empty room candle",
+   "kind": "video"
+  },
+  {
+   "name": "s21_0",
+   "q": "Dutch tavern interior painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s21_1",
+   "q": "torn paper",
+   "kind": "video"
+  },
+  {
+   "name": "s21_2",
+   "q": "wilting tulip",
+   "kind": "video"
+  },
+  {
+   "name": "s22_0",
+   "q": "Amsterdam 1637 painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s22_1",
+   "q": "Wagon of Fools tulip mania",
+   "kind": "commons"
+  },
+  {
+   "name": "s24_0",
+   "q": "Charles Mackay portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s24_1",
+   "q": "old book pages",
+   "kind": "video"
+  },
+  {
+   "name": "s25_0",
+   "q": "17th century still life cheese wine",
+   "kind": "commons"
+  },
+  {
+   "name": "s25_1",
+   "q": "Dutch pamphlet 1637 tulip",
+   "kind": "commons"
+  },
+  {
+   "name": "s25_2",
+   "q": "onion herring still life",
+   "kind": "commons"
+  },
+  {
+   "name": "s26_0",
+   "q": "archive old documents",
+   "kind": "photo"
+  },
+  {
+   "name": "s27_0",
+   "q": "Allegory of tulip mania",
+   "kind": "commons"
+  },
+  {
+   "name": "s27_1",
+   "q": "tulip field aerial",
+   "kind": "video"
+  },
+  {
+   "name": "s29_0",
+   "q": "hourglass sand",
+   "kind": "video"
+  },
+  {
+   "name": "s30_0",
+   "q": "empty market street",
+   "kind": "video"
+  },
+  {
+   "name": "s30_1",
+   "q": "Haarlem Grote Markt painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s31_0",
+   "q": "signing contract",
+   "kind": "video"
+  },
+  {
+   "name": "s31_1",
+   "q": "coins on table",
+   "kind": "photo"
+  },
+  {
+   "name": "s32_0",
+   "q": "magnifying glass old map",
+   "kind": "photo"
+  },
+  {
+   "name": "s32_1",
+   "q": "library old books",
+   "kind": "video"
+  },
+  {
+   "name": "s33_0",
+   "q": "London 18th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s33_1",
+   "q": "Isaac Newton portrait Kneller",
+   "kind": "commons"
+  }
+ ]
+}
