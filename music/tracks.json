@@ -1,0 +1,15 @@
+{
+ "_note": "YouTube Audio Library, 'attribution not required'. Moods: tension, mystery, triumph, reflective, lament. Energy 1-5. Tags from audio analysis 19 Nov 2026; confirm by ear. vocals=unknown until checked.",
+ "tracks": [
+  {"file": "parasite-david-simon-baker-jenny-kerr.mp3", "moods": ["tension"], "energy": 4, "bright": "dark", "use": "cold open, rising danger, crash build-up"},
+  {"file": "way-back-when-patrick-patrikios.mp3", "moods": ["mystery", "reflective"], "energy": 2, "bright": "dark", "use": "history intro, setting the scene, old times"},
+  {"file": "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3", "moods": ["mystery", "lament"], "energy": 2, "bright": "mid", "use": "quiet cold open, 1800s stories, turning point"},
+  {"file": "was-will-die-einsame-thrane-half-cool-moregoodthanbad.mp3", "moods": ["lament", "reflective"], "energy": 2, "bright": "mid", "use": "loss, aftermath, lesson"},
+  {"file": "didos-lament-from-dido-and-aeneas-henry-purcell-golden-cut-reborn.mp3", "moods": ["lament"], "energy": 2, "bright": "dark", "use": "the collapse/ruin chapter; 1600-1700s stories (tulips, South Sea)"},
+  {"file": "gold-dust-dreams-chris-von-sneidern.mp3", "moods": ["reflective", "triumph"], "energy": 3, "bright": "mid", "use": "fortunes being built, lesson chapter"},
+  {"file": "look-at-me-now-the-soundlings.mp3", "moods": ["triumph"], "energy": 4, "bright": "bright", "use": "the rise, success montage"},
+  {"file": "never-be-free-chris-von-sneidern.mp3", "moods": ["triumph", "tension"], "energy": 4, "bright": "bright", "use": "boom times, mania, Shorts"},
+  {"file": "the-light-the-soundlings.mp3", "moods": ["triumph"], "energy": 5, "bright": "mid", "use": "climax, peak of the bubble, Shorts"}
+ ],
+ "rules": "Script marks a mood per chapter. Pick the matching track not used in the previous video for that mood; crossfade 1.5 s at chapter cards; music 15-18 dB under voice. Shorts: one track. Skip any track with vocals under narration."
+}
