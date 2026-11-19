@@ -10,7 +10,7 @@
   "Tulip Mania: How a Flower Became Worth a Fortune",
   "The Tulip Bubble of 1637, Explained"
  ],
- "voice": "bm_george",
+ "voice": "bm_lewis",
  "speed": 0.95,
  "cold_open_title": "A bulb for 5,200 guilders",
  "scenes": [
@@ -31,6 +31,11 @@
      "q": "Dutch auction 17th century painting",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s0_0.jpg",
+    "s0_1.mp4@1",
+    "s0_2.png"
    ]
   },
   {
@@ -46,6 +51,9 @@
      "q": "old dutch coins",
      "kind": "photo"
     }
+   ],
+   "shots": [
+    "s1_0.jpg"
    ]
   },
   {
@@ -53,13 +61,17 @@
    "say": "So how did a flower drive a whole country into a frenzy? Why did it end in just a few days? And what really happened to the people caught in the middle? Let's open the ledger.",
    "find": [
     {
-     "q": "candle dark old room",
+     "q": "candle flame dark",
      "kind": "video"
     },
     {
      "q": "Jan Brueghel tulip mania satire",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s2_0.mp4@1",
+    "s2_1.jpg"
    ]
   },
   {
@@ -78,13 +90,18 @@
      "kind": "commons"
     },
     {
-     "q": "Suleiman the Magnificent portrait",
+     "q": "Suleiman the Magnificent Titian",
      "kind": "commons"
     },
     {
      "q": "red tulips close up",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s4_0.jpg",
+    "s4_1.jpg",
+    "s4_2.mp4@1"
    ]
   },
   {
@@ -99,6 +116,10 @@
      "q": "Carolus Clusius portrait",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s5_0.jpg",
+    "s5_1.jpg"
    ]
   },
   {
@@ -110,13 +131,18 @@
      "kind": "commons"
     },
     {
-     "q": "Leiden 17th century painting",
+     "q": "Rapenburg Leiden painting",
      "kind": "commons"
     },
     {
-     "q": "tulip garden",
+     "q": "tulip close up",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s6_0.jpg",
+    "s6_1.jpg",
+    "s6_2.mp4@1"
    ]
   },
   {
@@ -135,6 +161,10 @@
      "q": "tulip book Jacob Marrel",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s7_0.jpg",
+    "s7_2.jpg"
    ]
   },
   {
@@ -142,7 +172,7 @@
    "say": "Nobody could make it happen on purpose. Growers tried everything. A plain bulb might break into stripes, or it might not, and a broken bulb was weaker and grew fewer offsets. Only in the nineteen twenties did a British scientist, Dorothy Cayley, discover the real cause: a virus, spread by tiny insects called aphids. The most expensive flowers in Europe were, in a sense, sick.",
    "find": [
     {
-     "q": "aphids on plant",
+     "q": "insect on leaf macro",
      "kind": "video"
     },
     {
@@ -153,6 +183,10 @@
      "q": "Semper Augustus watercolour",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s8_0.mp4@1",
+    "s8_1.jpg"
    ]
   },
   {
@@ -160,9 +194,12 @@
    "say": "Rare, beautiful, impossible to copy, and slow to multiply. That is the perfect recipe for something people will pay almost anything for.",
    "find": [
     {
-     "q": "tulips sunlight field",
+     "q": "tulips netherlands field",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s9_0.mp4@1"
    ]
   },
   {
@@ -185,9 +222,14 @@
      "kind": "commons"
     },
     {
-     "q": "Dutch merchant portrait 17th century",
+     "q": "Frans Hals portrait of a man",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s11_0.jpg",
+    "s11_1.jpg",
+    "s11_2.jpg"
    ]
   },
   {
@@ -195,13 +237,17 @@
    "say": "But tulips only bloom in spring, and the bulbs stay in the ground most of the year. So traders started signing contracts to buy a bulb later, when it could be lifted from the soil. They were trading a promise, not a flower.",
    "find": [
     {
-     "q": "quill pen writing old paper",
+     "q": "quill ink writing",
      "kind": "video"
     },
     {
-     "q": "notary 17th century painting",
+     "q": "Gerrit Dou notary",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s12_0.mp4@1",
+    "s12_1.jpg"
    ]
   },
   {
@@ -220,6 +266,11 @@
      "q": "Adriaen van Ostade tavern",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s13_0.jpg",
+    "s13_1.mp4@1",
+    "s13_2.jpg"
    ]
   },
   {
@@ -234,6 +285,10 @@
      "q": "Floraes Mallewagen Hendrik Pot",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s14_0.mp4@1",
+    "s14_1.jpg"
    ]
   },
   {
@@ -249,6 +304,9 @@
      "q": "tulip bulbs pile",
      "kind": "photo"
     }
+   ],
+   "shots": [
+    "s15_0.jpg"
    ]
   },
   {
@@ -256,13 +314,17 @@
    "say": "People were not buying tulips to plant them. They were buying them because they believed someone else would pay more tomorrow.",
    "find": [
     {
-     "q": "crowd market old painting dutch",
+     "q": "Dutch market scene 17th century painting",
      "kind": "commons"
     },
     {
      "q": "gold coins falling",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s16_0.jpg",
+    "s16_1.mp4@1"
    ]
   },
   {
@@ -277,17 +339,22 @@
    "say": "Which brings us back to Alkmaar. On the fifth of February, sixteen thirty-seven, about seventy rare bulbs were auctioned for the orphaned children of a tavern owner named Wouter Winckel, who had collected some of the finest tulips in Holland. The best of them, a bulb called the Admirael van Enkhuizen, went for five thousand two hundred guilders. A Viceroy sold for more than four thousand.",
    "find": [
     {
-     "q": "Alkmaar 17th century painting",
+     "q": "Alkmaar Waag painting",
      "kind": "commons"
     },
     {
-     "q": "Viceroy tulip",
+     "q": "Viceroy tulip watercolour",
      "kind": "commons"
     },
     {
      "q": "auction hammer",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s18_0.jpg",
+    "s18_1.jpg",
+    "s18_2.mp4@1"
    ]
   },
   {
@@ -302,6 +369,10 @@
      "q": "amsterdam canal houses",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s19_0.jpg",
+    "s19_1.mp4@1"
    ]
   },
   {
@@ -309,13 +380,17 @@
    "say": "It was the very top. Within days, in the tulip capital of Haarlem, a routine sale of bulbs went quiet. Sellers named a price, then a lower price, then lower again. Nobody bid.",
    "find": [
     {
-     "q": "Haarlem 17th century painting",
+     "q": "Haarlem Spaarne painting",
      "kind": "commons"
     },
     {
-     "q": "empty room candle",
+     "q": "candle smoke extinguished",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s20_0.jpg",
+    "s20_1.mp4@1"
    ]
   },
   {
@@ -327,13 +402,18 @@
      "kind": "commons"
     },
     {
-     "q": "torn paper",
+     "q": "crumpled paper",
      "kind": "video"
     },
     {
      "q": "wilting tulip",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s21_0.jpg",
+    "s21_1.mp4@1",
+    "s21_2.mp4@1"
    ]
   },
   {
@@ -348,6 +428,9 @@
      "q": "Wagon of Fools tulip mania",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s22_0.jpg"
    ]
   },
   {
@@ -362,13 +445,17 @@
    "say": "Now, here is the part most videos leave out. The famous version of this story, where a whole nation was ruined, comes mostly from a book written more than two hundred years later, in eighteen forty-one, by a Scottish journalist named Charles Mackay.",
    "find": [
     {
-     "q": "Charles Mackay portrait",
+     "q": "Charles Mackay author 1814",
      "kind": "commons"
     },
     {
      "q": "old book pages",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s24_0.jpg",
+    "s24_1.mp4@1"
    ]
   },
   {
@@ -387,6 +474,10 @@
      "q": "onion herring still life",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s25_0.jpg",
+    "s25_2.jpg"
    ]
   },
   {
@@ -399,9 +490,12 @@
    },
    "find": [
     {
-     "q": "archive old documents",
+     "q": "old manuscript archive",
      "kind": "photo"
     }
+   ],
+   "shots": [
+    "s26_0.jpg"
    ]
   },
   {
@@ -416,6 +510,10 @@
      "q": "tulip field aerial",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s27_0.jpg",
+    "s27_1.mp4@1"
    ]
   },
   {
@@ -433,6 +531,9 @@
      "q": "hourglass sand",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s29_0.mp4@1"
    ]
   },
   {
@@ -440,13 +541,17 @@
    "say": "First: when the only reason to buy something is that someone else will pay more later, the price does not need a crash to fall. It only needs one day with no new buyer. In Haarlem, that day came in February.",
    "find": [
     {
-     "q": "empty market street",
+     "q": "empty street night",
      "kind": "video"
     },
     {
      "q": "Haarlem Grote Markt painting",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s30_0.mp4@1",
+    "s30_1.jpg"
    ]
   },
   {
@@ -461,6 +566,10 @@
      "q": "coins on table",
      "kind": "photo"
     }
+   ],
+   "shots": [
+    "s31_0.mp4@1",
+    "s31_1.jpg"
    ]
   },
   {
@@ -475,6 +584,10 @@
      "q": "library old books",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s32_0.jpg",
+    "s32_1.mp4@1"
    ]
   },
   {
@@ -482,13 +595,17 @@
    "say": "Next, we will go to London in seventeen twenty, where even Isaac Newton, the man who explained gravity, lost a fortune in a bubble. If you want that story, subscribe to Ledger of Empires. And tell me in the comments: what would you have done with a tulip worth half a mansion?",
    "find": [
     {
-     "q": "London 18th century painting",
+     "q": "South Sea Bubble 1720",
      "kind": "commons"
     },
     {
      "q": "Isaac Newton portrait Kneller",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s33_0.jpg",
+    "s33_1.jpg"
    ]
   }
  ],

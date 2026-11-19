@@ -1,0 +1,101 @@
+{
+ "id": "001-tulip-mania-b",
+ "orient": "landscape",
+ "items": [
+  {
+   "name": "s2_0",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s4_1",
+   "q": "Suleiman the Magnificent Titian",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_1",
+   "q": "Rapenburg Leiden painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_2",
+   "q": "tulip close up",
+   "kind": "video"
+  },
+  {
+   "name": "s8_0",
+   "q": "insect on leaf macro",
+   "kind": "video"
+  },
+  {
+   "name": "s9_0",
+   "q": "tulips netherlands field",
+   "kind": "video"
+  },
+  {
+   "name": "s11_2",
+   "q": "Frans Hals portrait of a man",
+   "kind": "commons"
+  },
+  {
+   "name": "s12_0",
+   "q": "quill ink writing",
+   "kind": "video"
+  },
+  {
+   "name": "s12_1",
+   "q": "Gerrit Dou notary",
+   "kind": "commons"
+  },
+  {
+   "name": "s16_0",
+   "q": "Dutch market scene 17th century painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s18_0",
+   "q": "Alkmaar Waag painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s18_1",
+   "q": "Viceroy tulip watercolour",
+   "kind": "commons"
+  },
+  {
+   "name": "s20_0",
+   "q": "Haarlem Spaarne painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s20_1",
+   "q": "candle smoke extinguished",
+   "kind": "video"
+  },
+  {
+   "name": "s21_1",
+   "q": "crumpled paper",
+   "kind": "video"
+  },
+  {
+   "name": "s24_0",
+   "q": "Charles Mackay author 1814",
+   "kind": "commons"
+  },
+  {
+   "name": "s26_0",
+   "q": "old manuscript archive",
+   "kind": "photo"
+  },
+  {
+   "name": "s30_0",
+   "q": "empty street night",
+   "kind": "video"
+  },
+  {
+   "name": "s33_0",
+   "q": "South Sea Bubble 1720",
+   "kind": "commons"
+  }
+ ]
+}
