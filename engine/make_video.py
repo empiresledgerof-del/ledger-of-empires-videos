@@ -103,7 +103,9 @@ def voices(vid):
         a = v.speak(sc["say"], sc.get("voice", spec["voice"]), spec.get("speed", 0.95))
         idx = np.where(np.abs(a) > 0.01)[0]; a = a[max(idx[0] - 240, 0): idx[-1] + 2400]
         p = bd / f"vo_{i}.wav"; V.save_wav(p, a); out[i] = p; total += len(a) / V.SR
-    if V.MISSING: print("WARNING spelled-out words (add to CUSTOM in voice.py):", sorted(V.MISSING))
+    if V.MISSING:
+        raise SystemExit(f"STOP: these words would be spelled out letter by letter: {sorted(V.MISSING)}. "
+                         "Add them to CUSTOM in engine/voice.py (misaki symbols) and run again.")
     words = sum(len(sc.get("say", "").split()) for sc in spec["scenes"])
     print(f"voice: {words} words, {total:.1f} s of speech")
     return out

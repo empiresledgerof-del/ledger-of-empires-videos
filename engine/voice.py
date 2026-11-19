@@ -1,4 +1,4 @@
-"""AI Daily Drop voice engine.
+"""Ledger of Empires voice engine (from AI Daily Drop).
 
 Kokoro v1.0 (ONNX) speech model + misaki pronunciation dictionaries (data only).
 Usage:
@@ -36,6 +36,16 @@ CUSTOM = {
     "CarPlay": "kˈɑɹplˌA",
     "countries": "kˈʌntɹiz", "territories": "tˈɛɹətˌɔɹiz", "iPhone": "ˈIfˌOn", "Android": "ˈændɹYd",
 }
+
+# History names (Ledger of Empires). Check the "spelled-out words" warning after every voice run and add new names here.
+CUSTOM.update({
+    "Admirael": "ˈædmɪɹˌAl", "Alkmaar": "ˈɑlkmˌɑɹ", "Busbecq": "bˈusbɛk", "Carolus": "kˈæɹələs", "Cayley": "kˈAli",
+    "Clusius": "klˈuziəs", "Dorothy": "dˈɔɹəθi", "Enkhuizen": "ˈɛŋkhˌWzən", "Ghiselin": "ɡˈizəlɪn", "Goldgar": "ɡˈOldɡɑɹ",
+    "Ogier": "ˈOʒiˌA", "Semper": "sˈɛmpɚ", "Switsers": "swˈɪʦɚz", "Winckel": "wˈɪŋkəl", "Wouter": "wˈWtɚ", "de": "də",
+    "windhandel": "wˈɪnthˌɑndəl", "Mackay": "məkˈI", "Haarlem": "hˈɑɹləm", "Leiden": "lˈIdən", "Medici": "mˈɛdɪʧi",
+    "Fugger": "fˈʊɡɚ", "Rockefeller": "ɹˈɑkəfˌɛlɚ", "Mansa": "mˈɑnsə", "Musa": "mˈusə", "Augsburg": "ˈWɡzbɜɹɡ",
+    "guilders": "ɡˈɪldɚz", "guilder": "ɡˈɪldɚ", "Newton": "nˈutᵊn", "Brueghel": "bɹˈOɡəl", "Viceroy": "vˈIsɹˌY",
+})
 
 LETTERS = {c: p for c, p in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ", [
     "ˈA", "bˈi", "sˈi", "dˈi", "ˈi", "ˈɛf", "ʤˈi", "ˈAʧ", "ˈI", "ʤˈA", "kˈA", "ˈɛl", "ˈɛm",
@@ -107,6 +117,8 @@ def g2p_word(word):
         for stem in (word[:-3], word[:-3] + "e", word[:-4]):
             if (b := lookup(stem)): return b + "ɪŋ"
     if low.endswith("ly") and (b := lookup(word[:-2])): return b + "li"
+    if low.endswith("ies") and (b := lookup(word[:-3] + "y")): return b + "z"
+    if low.endswith("ier") and (b := lookup(word[:-3] + "y")): return b + "ɚ"
     if word.isupper() and len(word) <= 5:
         return "".join(LETTERS[c] for c in word if c in LETTERS)
     MISSING.add(word)
