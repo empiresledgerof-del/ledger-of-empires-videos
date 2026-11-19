@@ -1,3 +1,5 @@
 engine/tts_data/
 build/
 __pycache__/
+videos/99*/
+requests/99*
