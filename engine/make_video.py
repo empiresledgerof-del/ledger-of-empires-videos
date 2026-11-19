@@ -125,6 +125,9 @@ def render(vid):
         for c in info["chapters"]:
             print(f"{int(c['t'] // 60)}:{int(c['t'] % 60):02d} {c['title']}")
     frames(vid)
+    if spec.get("thumbs"):
+        from thumbnail import make as make_thumb
+        make_thumb(vid)
     return info
 
 
