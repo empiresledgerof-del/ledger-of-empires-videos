@@ -3,3 +3,4 @@
 ## 2026-11-19 - setup
 - Channel created: Ledger of Empires (YouTube UCguw0CrIGs24JV6T6Frfxuw), Metricool brand 8221844 (Asia/Karachi).
 - No videos yet. Only call something a pattern after 3+ videos.
+- 2026-11-19: all connectors tested OK (Metricool, Cloudinary folder created, vidIQ 150 credits, stock robot released stock-000-robot-test).
