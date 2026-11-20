@@ -64,9 +64,14 @@ def stock(vid, retry="", only=None):
     json.dump(merged, open(old, "w"), indent=1)
     files = {m["name"]: m["file"] for m in merged if "file" in m}
     for i, sc in enumerate(spec["scenes"]):
-        if sc.get("find") and (not sc.get("shots") or only):
-            sc["shots"] = [files[f"s{i}_{n}"] + ("@1" if files[f"s{i}_{n}"].endswith(".mp4") else "")
-                           for n in range(len(sc["find"])) if f"s{i}_{n}" in files]
+        touched = only and any(f"s{i}_{n}" in only for n in range(len(sc.get("find", []))))
+        if sc.get("find") and (not sc.get("shots") or touched):
+            new = [files[f"s{i}_{n}"] + ("@1" if files[f"s{i}_{n}"].endswith(".mp4") else "")
+                   for n in range(len(sc["find"])) if f"s{i}_{n}" in files]
+            if touched and sc.get("shots"):   # keep hand-picked shots, swap in only the re-fetched ones
+                keep = [x for x in sc["shots"] if x.split("@")[0].split("#")[0].rsplit(".", 1)[0] not in only]
+                new = keep + [x for x in new if x.split("@")[0].rsplit(".", 1)[0] in only]
+            sc["shots"] = new
     save(vid, spec); sheet(vid)
 
 
