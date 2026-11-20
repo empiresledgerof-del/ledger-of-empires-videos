@@ -52,6 +52,17 @@
    "music": [
     "growth-decay-density-time.mp3"
    ]
+  },
+  {
+   "id": "002-rockefeller-ledger",
+   "format": "long",
+   "series": "How ... Got Rich",
+   "pillar": "great-fortunes",
+   "voice": "am_michael",
+   "status": "draft",
+   "planned_slot_pkt": "2026-11-25T00:30",
+   "slot": "B",
+   "note": "Script drafted + facts checked + voice timed (536 s speech) on Sat 21 Nov run. Mon run: stock, thumbs, render, publish. Voice index not yet advanced."
   }
  ]
 }

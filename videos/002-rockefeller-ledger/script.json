@@ -1,0 +1,660 @@
+{
+ "id": "002-rockefeller-ledger",
+ "format": "long",
+ "series": "How ... Got Rich",
+ "pillar": "great-fortunes",
+ "status": "draft",
+ "title": "How Rockefeller Got Rich, One Penny at a Time",
+ "title_options": [
+  "How Rockefeller Got Rich, One Penny at a Time",
+  "Rockefeller Tracked Every Penny. Here's Why",
+  "Rockefeller's Ledger: The Habit Behind a Fortune",
+  "Rockefeller's Ledger A: The Book He Never Sold",
+  "How Rockefeller Got Rich Counting Pennies",
+  "Rockefeller: From $50 to $900 Million",
+  "Rockefeller's First $50 and the Book He Kept",
+  "Rockefeller Counted 39 Drops. It Made Millions",
+  "John D. Rockefeller's 1855 Money Notebook",
+  "Rockefeller's Penny Ledger Explains His Fortune",
+  "Rockefeller Gave Away Pennies at 16. Here's Why"
+ ],
+ "voice": "am_michael",
+ "speed": 0.95,
+ "cold_open_title": "Every single cent",
+ "scenes": [
+  {
+   "mood": "tension",
+   "say": "Cleveland, Ohio, the winter of eighteen fifty-five. A sixteen-year-old bookkeeper opens a cheap little notebook and writes down every cent he earns, and every cent he spends. His rent. His laundry. A single penny for church.",
+   "find": [
+    {
+     "q": "account book ledger 19th century handwriting",
+     "kind": "commons"
+    },
+    {
+     "q": "quill pen writing old paper",
+     "kind": "video"
+    },
+    {
+     "q": "John D. Rockefeller 1857 photograph",
+     "kind": "commons"
+    }
+   ],
+   "shots": [],
+   "hook": "EVERY. SINGLE. CENT."
+  },
+  {
+   "mood": "tension",
+   "say": "About fifty years later, that same boy is the richest man in America. And he says he would not trade that little book for all the ledgers in New York.",
+   "find": [
+    {
+     "q": "John D. Rockefeller portrait 1910s",
+     "kind": "commons"
+    },
+    {
+     "q": "gold coins falling close up",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "mystery",
+   "say": "So what was really inside it? How does a clerk earning about fifty cents a day build one of the most powerful companies in history? And what did the book never teach him? Let's open the ledger.",
+   "find": [
+    {
+     "q": "candle flame dark",
+     "kind": "video"
+    },
+    {
+     "q": "old book pages turning",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "card": {
+    "kicker": "Chapter One",
+    "title": "A Boy Who Counted"
+   },
+   "mood": "mystery"
+  },
+  {
+   "mood": "mystery",
+   "say": "John Davison Rockefeller was born on the eighth of July, eighteen thirty-nine, in Richford, a small town in New York State. His father, William, was a travelling seller of bottled so-called cures, and he was often away from home. Years later, it came out that he had lived a second life under another name, with another wife.",
+   "find": [
+    {
+     "q": "Richford New York Rockefeller birthplace",
+     "kind": "commons"
+    },
+    {
+     "q": "19th century patent medicine bottle advertisement",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "His mother, Eliza, held the family together. She was deeply religious, and she taught her children to work, to save, and to give. John listened.",
+   "find": [
+    {
+     "q": "19th century American farmhouse painting",
+     "kind": "commons"
+    },
+    {
+     "q": "old bible pages candle",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "mystery",
+   "say": "In eighteen fifty-three the family moved to Ohio, near Cleveland. Two years later, John stopped school, took a few months of business classes, and went looking for work. He walked from office to office along the busy riverfront, asking for the man in charge. Again and again, the answer was no.",
+   "find": [
+    {
+     "q": "Cleveland Ohio 1850s engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "Cuyahoga River Cleveland 19th century",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "triumph",
+   "say": "Then, on the twenty-sixth of September, eighteen fifty-five, a firm called Hewitt and Tuttle, which shipped grain and other produce, hired him as an assistant bookkeeper. He celebrated that date every year for the rest of his life. Some said it meant more to him than his own birthday.",
+   "find": [
+    {
+     "q": "Cleveland harbor 1850s ships lithograph",
+     "kind": "commons"
+    },
+    {
+     "q": "grain sacks wheat close up",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "But there was a catch. Nobody told him what he would be paid. He worked for three months without knowing. Then, at the end of the year, Mr. Tuttle handed him fifty dollars. About fifty cents a day. Most boys would have spent it. John opened a little book.",
+   "find": [
+    {
+     "q": "hourglass sand time",
+     "kind": "video"
+    },
+    {
+     "q": "old dollar banknotes 19th century",
+     "kind": "photo"
+    }
+   ],
+   "shots": [],
+   "stat": {
+    "value": 50,
+    "prefix": "$",
+    "label": "his pay for his first three months, 1855"
+   }
+  },
+  {
+   "card": {
+    "kicker": "Chapter Two",
+    "title": "Ledger A"
+   },
+   "mood": "mystery"
+  },
+  {
+   "mood": "mystery",
+   "say": "He called it Ledger A. A small, paper-covered memorandum book, the kind you could buy at any stationer's shop. On each line he wrote what came in, and what went out. Nothing was too small to count.",
+   "find": [
+    {
+     "q": "19th century memorandum book",
+     "kind": "commons"
+    },
+    {
+     "q": "writing with fountain pen close up",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "There was his board, the money for his room and meals. The washerwoman who did his laundry. Clothes. And then the small amounts that tell you who he was. A penny every Sunday for Sunday school. A few cents for missionaries. A few cents for the poor of his church.",
+   "find": [
+    {
+     "q": "Erie Street Baptist church Cleveland",
+     "kind": "commons"
+    },
+    {
+     "q": "old copper pennies",
+     "kind": "photo"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "In eighteen fifty-six he earned about three hundred dollars. His own records show he gave away nineteen dollars and thirty-one cents of it. That is about six percent, from a teenager who had almost nothing.",
+   "find": [
+    {
+     "q": "coins in hand old",
+     "kind": "photo"
+    },
+    {
+     "q": "candle light old room",
+     "kind": "video"
+    }
+   ],
+   "shots": [],
+   "stat": {
+    "value": 19.31,
+    "prefix": "$",
+    "label": "given away in 1856, out of about $300 earned",
+    "decimals": 2
+   }
+  },
+  {
+   "mood": "reflective",
+   "say": "Why does this matter? Because the ledger was not about being cheap. It was about knowing. When you write every cent down, you cannot lie to yourself about where your money goes.",
+   "find": [
+    {
+     "q": "old book closing dust",
+     "kind": "video"
+    },
+    {
+     "q": "hourglass",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "lament",
+   "say": "More than forty years later, in eighteen ninety-seven, he was one of the richest men in the world. He stood before a class of young men at his church in New York and talked about that old book. 'It almost brings tears to my eyes,' he said, 'when I read over this little book.' And he told them they could not get it from him for all the modern ledgers in New York.",
+   "find": [
+    {
+     "q": "Fifth Avenue Baptist Church New York 19th century",
+     "kind": "commons"
+    },
+    {
+     "q": "John D. Rockefeller 1890s portrait",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "But a notebook alone does not make anyone rich. What he did next with those numbers is where the story turns.",
+   "find": [
+    {
+     "q": "candle flame flicker dark",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "card": {
+    "kicker": "Chapter Three",
+    "title": "From Clerk to Oil"
+   },
+   "mood": "tension"
+  },
+  {
+   "mood": "mystery",
+   "say": "At Hewitt and Tuttle, John checked every bill that came in, line by line, as if the money were his own. He learned how money moves through a business: who owes what, who pays late, and where profit quietly leaks away.",
+   "find": [
+    {
+     "q": "19th century merchant counting house painting",
+     "kind": "commons"
+    },
+    {
+     "q": "old papers desk candle",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "triumph",
+   "say": "His pay rose to twenty-five dollars a month, then to five hundred dollars a year. And he kept saving. In March, eighteen fifty-nine, at just nineteen, he started his own business with a partner named Maurice Clark. Each of them had to put in two thousand dollars.",
+   "find": [
+    {
+     "q": "Cleveland 1860s street lithograph",
+     "kind": "commons"
+    },
+    {
+     "q": "antique coins stack",
+     "kind": "photo"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "John had saved about a thousand. For the rest, he went to his father, who agreed to lend it, but not as a gift. 'But, John,' his father said, 'the rate is ten.' Ten percent interest, from his own father.",
+   "find": [
+    {
+     "q": "19th century loan document handwritten",
+     "kind": "commons"
+    },
+    {
+     "q": "hourglass sand falling",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "triumph",
+   "say": "The new firm did well. Then, that same year, in western Pennsylvania, not far from Cleveland, men drilling into the ground struck oil. Suddenly there was a product everyone wanted: kerosene, to light lamps after dark.",
+   "find": [
+    {
+     "q": "Drake well Titusville 1859 photograph",
+     "kind": "commons"
+    },
+    {
+     "q": "oil lamp flame",
+     "kind": "video"
+    },
+    {
+     "q": "Pennsylvania oil region 1860s wells photograph",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "In eighteen sixty-three, Rockefeller and Clark joined a chemist named Samuel Andrews to build an oil refinery in Cleveland. But John and the Clarks argued about how fast to grow. In February eighteen sixty-five, they settled it in a strange way: an auction between the partners. The winner would take the refinery.",
+   "find": [
+    {
+     "q": "Cleveland oil refinery 1860s",
+     "kind": "commons"
+    },
+    {
+     "q": "fire flames dark",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "triumph",
+   "say": "The bids climbed and climbed. John finally said seventy-two thousand five hundred dollars. Clark gave up. Rockefeller was twenty-five years old, and the refinery was his.",
+   "find": [
+    {
+     "q": "Rockefeller and Andrews refinery Cleveland",
+     "kind": "commons"
+    },
+    {
+     "q": "gold coins close up",
+     "kind": "video"
+    }
+   ],
+   "shots": [],
+   "stat": {
+    "value": 72500,
+    "prefix": "$",
+    "label": "his winning bid for the refinery, February 1865"
+   }
+  },
+  {
+   "mood": "triumph",
+   "say": "Five years later, on the tenth of January, eighteen seventy, he and his partners formed a new company with one million dollars of capital. They called it Standard Oil. And the boy who counted pennies started counting something much smaller. Drops.",
+   "find": [
+    {
+     "q": "Standard Oil Company certificate 1870s",
+     "kind": "commons"
+    },
+    {
+     "q": "Standard Oil Cleveland 1870s",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "card": {
+    "kicker": "Chapter Four",
+    "title": "An Empire of Drops"
+   },
+   "mood": "tension"
+  },
+  {
+   "mood": "mystery",
+   "say": "Rockefeller ran Standard Oil the way he ran Ledger A. Every cost written down, compared, and questioned. He once watched a machine sealing cans of kerosene, and counted forty drops of solder on every lid. He asked, 'Have you ever tried thirty-eight?'",
+   "find": [
+    {
+     "q": "kerosene can 19th century",
+     "kind": "commons"
+    },
+    {
+     "q": "metal welding sparks close up",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "triumph",
+   "say": "They tried. Some cans leaked. With thirty-nine, they did not. One drop less, on every single can. According to his biographer, Ron Chernow, it saved two thousand five hundred dollars in the first year, and it kept saving money every year after that.",
+   "find": [
+    {
+     "q": "Standard Oil kerosene advertisement 19th century",
+     "kind": "commons"
+    },
+    {
+     "q": "drops of liquid slow motion",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "Small savings, multiplied across a giant business, made Standard Oil one of the cheapest refiners in America. That is the bright side of the ledger. Now the dark side.",
+   "find": [
+    {
+     "q": "Standard Oil refinery 1880s photograph",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "In eighteen seventy-two, in roughly six weeks, Standard Oil bought twenty-two of the twenty-six refineries in Cleveland. Many owners felt they had no real choice. Standard also made secret deals with the railroads for cheaper shipping, deals its rivals could not get.",
+   "find": [
+    {
+     "q": "railroad oil tank cars 19th century",
+     "kind": "commons"
+    },
+    {
+     "q": "Cleveland Flats refineries 1870s",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "tension",
+   "say": "By around eighteen eighty, Standard Oil controlled about ninety percent of all the oil refining in the United States.",
+   "find": [
+    {
+     "q": "Puck cartoon Standard Oil octopus Keppler 1904",
+     "kind": "commons"
+    }
+   ],
+   "shots": [],
+   "stat": {
+    "value": 90,
+    "suffix": "%",
+    "label": "of US oil refining controlled by Standard Oil, around 1880"
+   }
+  },
+  {
+   "mood": "lament",
+   "say": "In nineteen oh two, a journalist named Ida Tarbell began a series in McClure's magazine that exposed those methods, chapter by chapter. Americans were furious. And on the fifteenth of May, nineteen eleven, the United States Supreme Court ordered Standard Oil to be broken up into more than thirty separate companies.",
+   "find": [
+    {
+     "q": "Ida Tarbell portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "McClure's magazine 1902 cover",
+     "kind": "commons"
+    },
+    {
+     "q": "United States Supreme Court 1911 justices",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "triumph",
+   "say": "Here is the twist. Rockefeller owned shares in all of them. As the pieces grew, so did his fortune. By around nineteen thirteen, it was estimated at about nine hundred million dollars. Some newspapers called him the first billionaire, although that figure has always been disputed.",
+   "find": [
+    {
+     "q": "John D. Rockefeller 1910s photograph",
+     "kind": "commons"
+    },
+    {
+     "q": "gold coins pile",
+     "kind": "video"
+    }
+   ],
+   "shots": [],
+   "stat": {
+    "value": 900,
+    "prefix": "$",
+    "suffix": " million",
+    "label": "estimated fortune, around 1913"
+   }
+  },
+  {
+   "mood": "lament",
+   "say": "And then he did what the ledger had trained him to do since he was sixteen. He gave. More than five hundred million dollars in his lifetime, to the University of Chicago, to medical research, and to the Rockefeller Foundation. He died in Florida on the twenty-third of May, nineteen thirty-seven, at ninety-seven years old.",
+   "find": [
+    {
+     "q": "University of Chicago 1890s photograph",
+     "kind": "commons"
+    },
+    {
+     "q": "The Casements Ormond Beach",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "card": {
+    "kicker": "Chapter Five",
+    "title": "What the Ledger Teaches"
+   },
+   "mood": "reflective"
+  },
+  {
+   "mood": "reflective",
+   "say": "So what can a little paper book from eighteen fifty-five teach us today? This is not financial advice. It is just a lesson from history.",
+   "find": [
+    {
+     "q": "old book pages turning",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "First: you cannot fix what you do not measure. Before Rockefeller tried to grow his money, he knew exactly where every cent of it went. Most of us guess. And our guesses are usually kinder to us than the truth.",
+   "find": [
+    {
+     "q": "quill pen writing old paper",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "Second: small leaks matter. One drop of solder. A few dollars a week on things you do not even remember buying. Over years, small amounts become real money, in either direction.",
+   "find": [
+    {
+     "q": "water drops slow motion",
+     "kind": "video"
+    },
+    {
+     "q": "hourglass sand time",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "lament",
+   "say": "Third, and this is what the ledger could not teach him: counting tells you how much, not whether it is right. The same habit that saved pennies also helped him squeeze his rivals until a court stepped in. Numbers are a tool. You still decide what kind of person uses them.",
+   "find": [
+    {
+     "q": "Puck cartoon Rockefeller 1900s",
+     "kind": "commons"
+    },
+    {
+     "q": "candle flame dark",
+     "kind": "video"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "If you want to try it, it costs nothing. For one month, write down every single thing you spend. You might be surprised, as he was, by what your own Ledger A says about you.",
+   "find": [
+    {
+     "q": "account book ledger 19th century handwriting",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  },
+  {
+   "mood": "reflective",
+   "say": "Next time, we go to London in seventeen twenty, where Isaac Newton, the genius who explained gravity, still lost a fortune in the South Sea Bubble. Subscribe so you don't miss it. And tell me in the comments: if you wrote down every cent for a month, what do you think would surprise you most?",
+   "find": [
+    {
+     "q": "South Sea Bubble 1720 engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "Isaac Newton portrait Kneller",
+     "kind": "commons"
+    }
+   ],
+   "shots": []
+  }
+ ],
+ "thumbs_plan": [
+  "Young Rockefeller (1857 photo, #fit) left, old open ledger right; text 'EVERY' / 'PENNY' (gold PENNY)",
+  "Close-up of an old handwritten account book + copper coin; text 'HIS $50' / 'NOTEBOOK' (gold $50)",
+  "Older Rockefeller portrait, stern face; text 'THE 39 DROP' / 'RULE' (gold 39)"
+ ],
+ "thumbs": [],
+ "description_intro": "How did John D. Rockefeller get rich? It started in 1855 with a 16-year-old bookkeeper, his first $50, and a little notebook called Ledger A where he wrote down every cent. This is the true story of how that habit grew into Standard Oil, the dark side of his empire, and the money lesson it still teaches.",
+ "sources": [
+  "John D. Rockefeller, Random Reminiscences of Men and Events (1909)",
+  "Mr. Rockefeller's Ledger A, address to the Young Men's Bible Class, Fifth Avenue Baptist Church, 27 March 1897 (archive.org)",
+  "Ron Chernow, Titan: The Life of John D. Rockefeller, Sr. (1998)",
+  "Rockefeller Archive Center: John D. Rockefeller Sr. biography",
+  "PBS American Experience: The Rockefellers (timeline and biography)",
+  "Encyclopedia of Cleveland History (Case Western Reserve University): Rockefeller, John D.",
+  "Library of Congress: 'Rockefeller, billionaire?' (Inside Adams, 2020)",
+  "Britannica: John D. Rockefeller; The History of the Standard Oil Company",
+  "TIME archive; History.com: 10 things you may not know about John D. Rockefeller"
+ ],
+ "tags": [
+  "john d rockefeller",
+  "rockefeller",
+  "how rockefeller got rich",
+  "standard oil",
+  "ledger a",
+  "financial history",
+  "history of money",
+  "money lessons",
+  "budgeting habit",
+  "great fortunes",
+  "gilded age",
+  "business history"
+ ],
+ "first_comment": "If you wrote down every cent you spent for one month, what do you think would surprise you most? 📒👇",
+ "facts_checked": {
+  "born 8 Jul 1839 Richford NY; moved to Ohio 1853": "Rockefeller Archive Center; PBS timeline; Case Western ECH",
+  "father travelling seller of cures, often away; second life as 'Dr. William Levingston' with another wife": "PBS American Experience; History.com",
+  "mother Eliza religious; taught work, save, give": "PBS; History.com",
+  "few months of business school 1855 (name/length disputed: Folsom's)": "PBS (10 weeks); RAC (3 months); Random Reminiscences ('a few months')",
+  "hired 26 Sep 1855 assistant bookkeeper, Hewitt & Tuttle (commission merchants, produce shippers); celebrated date yearly": "PBS timeline; History.com; Random Reminiscences",
+  "$50 for first three months (26 Sep-1 Jan); ~50 cents/day": "Random Reminiscences; 1897 Ledger A pamphlet; Library of Congress",
+  "then $25/month ($300/yr), then $500/yr": "Random Reminiscences; 1897 pamphlet",
+  "Ledger A small paper-covered memorandum book; board, washerwoman, clothes, penny each Sunday to Sunday school, missions, poor of church": "1897 pamphlet (primary); TIME archive",
+  "gave $19.31 in 1856 (~6% of ~$300, our arithmetic)": "Encyclopedia of Cleveland History; 1897 pamphlet",
+  "1897 talk quotes ('brings tears to my eyes'; not for all the modern ledgers in New York)": "1897 pamphlet (primary, his own words); TIME archive",
+  "Clark & Rockefeller March 1859, each partner $2,000; ~$1,000 saved (disputed $800-1,000 -> 'about a thousand'); father's loan at 10% 'the rate is ten'": "PBS; RAC; Random Reminiscences; American Heritage",
+  "1859 oil strike western Pennsylvania (Drake, Titusville)": "PBS; CSU Cuyahoga press book",
+  "1863 refinery with Samuel Andrews; Feb 1865 auction $72,500": "RAC; PBS; CSU press book",
+  "Standard Oil 10 Jan 1870, $1M capital": "PBS; EBSCO; RAC",
+  "solder 40 -> 38 leaked -> 39; $2,500 first year (Chernow)": "Econlib quoting Titan pp.180-81; American Heritage (no year given, so none stated)",
+  "1872: 22 of 26 Cleveland refineries, 17 Feb-28 Mar (~6 weeks); railroad rebates": "PBS timeline; EBSCO; Library of Congress",
+  "~90% of US refining ~1879-80": "PBS; EBSCO; History.com",
+  "Tarbell series McClure's from Nov 1902": "PBS timeline; Britannica",
+  "15 May 1911 breakup, 'more than thirty' (34 vs 38 disputed)": "PBS; ABA Journal; History.com/LoC (34); RAC (38)",
+  "~$900M ca. 1913 (Chernow); billionaire claim disputed": "Money.com; PBS; Library of Congress",
+  "gave > $500M (RAC $540M); U Chicago, Rockefeller Institute, Foundation": "RAC; Britannica; History.com",
+  "died 23 May 1937, aged 97, Ormond Beach FL": "RAC; Britannica",
+  "CUT (unconfirmed): red 10-cent book, kept in safe, 'Big Bill', mother's 'willful waste' saying, $1.4B, Excelsior Works, GDP share": "only one or no reliable source"
+ }
+}

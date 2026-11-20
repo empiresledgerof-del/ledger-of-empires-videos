@@ -47,6 +47,11 @@ CUSTOM.update({
     "guilders": "ɡˈɪldɚz", "guilder": "ɡˈɪldɚ", "Newton": "nˈutᵊn", "Brueghel": "bɹˈOɡəl", "Viceroy": "vˈIsɹˌY",
 })
 
+CUSTOM.update({
+    "Chernow": "ʧˈɜɹnˌO", "Davison": "dˈAvɪsən", "Eliza": "əlˈIzə", "Hewitt": "hjˈuɪt", "Maurice": "mˈɔɹɪs",
+    "McClure": "məklˈʊɹ", "Richford": "ɹˈɪʧfɚd", "Tarbell": "tˈɑɹbəl", "Tuttle": "tˈʌtᵊl", "multiplied": "mˈʌltəplˌId",
+})
+
 LETTERS = {c: p for c, p in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ", [
     "ˈA", "bˈi", "sˈi", "dˈi", "ˈi", "ˈɛf", "ʤˈi", "ˈAʧ", "ˈI", "ʤˈA", "kˈA", "ˈɛl", "ˈɛm",
     "ˈɛn", "ˈO", "pˈi", "kjˈu", "ˈɑɹ", "ˈɛs", "tˈi", "jˈu", "vˈi", "dˈʌbᵊljˌu", "ˈɛks", "wˈI", "zˈi"])}
