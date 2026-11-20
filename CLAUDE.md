@@ -25,6 +25,9 @@ YouTube warning, money). Audience: English speakers abroad (US, UK, Canada, Aust
 A/B rule until learnings.md names a winner (after 4 weeks per format): alternate A/B by video number within each format.
 "Tonight" = the run's PKT date. Work out the posting slot from the weekday. Never schedule in the past; if a slot has passed,
 use the next free slot that day or the next day and say so in the report. Sunday is the owner's day off: no run.
+If state.json already has a video scheduled for tonight's target posting day and format (e.g. one made by hand), do NOT
+make another: run step 1 (analyse), research and draft the script for the NEXT due video (save it as script.json with
+status "draft" in state.json so the next run can use it), then report.
 
 ## Routine for every run
 ### 0. Setup (~3 min)
