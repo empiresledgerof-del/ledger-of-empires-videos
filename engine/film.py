@@ -431,7 +431,7 @@ def build_audio(timeline, bd, music_dir, tracks_meta, used_recent, total, short)
         tdur = media_dur(music_dir / tr["file"]); off = random.uniform(0, max(0, min(30, tdur - d - 1))) if tdur > d + 2 else 0
         out = bd / f"_m{k}.wav"
         sh("ffmpeg", "-loglevel", "error", "-y", "-stream_loop", "-1", "-ss", f"{off:.1f}", "-i", music_dir / tr["file"],
-           "-t", f"{d:.2f}", "-ar", str(sr), "-ac", "2", "-af", "loudnorm=I=-30:TP=-6", out)
+           "-t", f"{d:.2f}", "-ar", str(sr), "-ac", "2", "-af", "loudnorm=I=-33:TP=-8", out)
         parts.append(out)
     # chain crossfades
     if len(parts) == 1:
