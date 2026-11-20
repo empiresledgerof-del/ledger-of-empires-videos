@@ -12,11 +12,46 @@
  "next_music_index": 0,
  "posts_this_month": {
   "month": "2026-11",
-  "count": 0
+  "count": 2
  },
  "vidiq_credits_used": {
   "month": "2026-11",
   "count": 0
  },
- "videos": []
+ "videos": [
+  {
+   "id": "001-tulip-mania",
+   "format": "long",
+   "series": "The Rise and Fall",
+   "pillar": "bubbles-crashes",
+   "voice": "bm_lewis",
+   "length_s": 461,
+   "slot_pkt": "2026-11-22T20:00",
+   "slot": "A",
+   "metricool_post_id": 435226182,
+   "cloudinary": "ledger-of-empires/001-tulip-mania",
+   "thumb": "thumb_1 WORTH A HOUSE?",
+   "status": "scheduled",
+   "music": [
+    "growth-decay-density-time.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "didos-lament-from-dido-and-aeneas-henry-purcell-golden-cut-reborn.mp3"
+   ]
+  },
+  {
+   "id": "001s-tulip-short",
+   "format": "short",
+   "related": "001-tulip-mania",
+   "voice": "bm_lewis",
+   "length_s": 28.2,
+   "slot_pkt": "2026-11-21T02:00",
+   "slot": "B",
+   "metricool_post_id": 435226208,
+   "cloudinary": "ledger-of-empires/001s-tulip-short",
+   "status": "scheduled",
+   "music": [
+    "growth-decay-density-time.mp3"
+   ]
+  }
+ ]
 }
