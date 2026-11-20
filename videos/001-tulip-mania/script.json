@@ -76,7 +76,7 @@
   },
   {
    "card": {
-    "kicker": "Chapter 1",
+    "kicker": "Chapter One",
     "title": "A Flower From the Sultan's Garden"
    },
    "mood": "mystery"
@@ -205,7 +205,7 @@
   },
   {
    "card": {
-    "kicker": "Chapter 2",
+    "kicker": "Chapter Two",
     "title": "Trading the Wind"
    },
    "mood": "triumph"
@@ -224,6 +224,10 @@
     },
     {
      "q": "Frans Hals portrait of a man",
+     "kind": "commons"
+    },
+    {
+     "q": "Blaeu map Holland 17th century",
      "kind": "commons"
     }
    ],
@@ -318,8 +322,8 @@
      "kind": "commons"
     },
     {
-     "q": "gold coins falling",
-     "kind": "video"
+     "q": "Dutch silver coin 17th century",
+     "kind": "commons"
     }
    ],
    "shots": [
@@ -329,7 +333,7 @@
   },
   {
    "card": {
-    "kicker": "Chapter 3",
+    "kicker": "Chapter Three",
     "title": "Five Days in February"
    },
    "mood": "tension"
@@ -347,8 +351,8 @@
      "kind": "commons"
     },
     {
-     "q": "auction hammer",
-     "kind": "video"
+     "q": "Rembrandt Syndics of the Drapers Guild",
+     "kind": "commons"
     }
    ],
    "shots": [
@@ -403,8 +407,8 @@
      "kind": "commons"
     },
     {
-     "q": "crumpled paper",
-     "kind": "video"
+     "q": "Jan Steen merry company",
+     "kind": "commons"
     },
     {
      "q": "wilting tulip",
@@ -437,7 +441,7 @@
   },
   {
    "card": {
-    "kicker": "Chapter 4",
+    "kicker": "Chapter Four",
     "title": "The Legend Grows"
    },
    "mood": "mystery"
@@ -520,7 +524,7 @@
   },
   {
    "card": {
-    "kicker": "The lesson",
+    "kicker": "The Lesson",
     "title": "What the Tulips Still Teach Us"
    },
    "mood": "reflective"
@@ -532,6 +536,10 @@
     {
      "q": "hourglass sand",
      "kind": "video"
+    },
+    {
+     "q": "vanitas still life hourglass",
+     "kind": "commons"
     }
    ],
    "shots": [
@@ -543,8 +551,8 @@
    "say": "First: when the only reason to buy something is that someone else will pay more later, the price does not need a crash to fall. It only needs one day with no new buyer. In Haarlem, that day came in February.",
    "find": [
     {
-     "q": "empty street night",
-     "kind": "video"
+     "q": "Jan van Goyen view of Haarlem",
+     "kind": "commons"
     },
     {
      "q": "Haarlem Grote Markt painting",
@@ -561,12 +569,12 @@
    "say": "Second: be careful with deals made on promises and borrowed money. The traders who signed contracts with nothing paid up front felt rich right up until they had to pay.",
    "find": [
     {
-     "q": "signing contract",
-     "kind": "video"
+     "q": "Quentin Matsys moneylender and his wife",
+     "kind": "commons"
     },
     {
-     "q": "coins on table",
-     "kind": "photo"
+     "q": "Marinus van Reymerswaele tax collectors",
+     "kind": "commons"
     }
    ],
    "shots": [

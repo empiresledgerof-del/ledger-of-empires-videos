@@ -34,7 +34,7 @@ PAD = 0.35            # silence after each narrated scene
 CARD_DUR = 3.0
 X264 = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p"]
 GRADE = ("eq=contrast=1.06:saturation=0.86:brightness=-0.01,"
-         "colorbalance=rs=0.035:gs=0.01:bs=-0.04:rh=0.03:gh=0.01:bh=-0.03,vignette=angle=PI/5")
+         "colorbalance=rs=0.035:gs=0.01:bs=-0.04:rh=0.03:gh=0.01:bh=-0.03,vignette=angle=PI/5,noise=alls=5:allf=t")
 
 
 def F(name, size):
@@ -132,37 +132,74 @@ def pipe_frames(frames_fn, n, W, H, out):
 
 
 # ---------------------------------------------------------------- special segments
+INK = (52, 36, 22); SEPIA = (128, 88, 40)
+
+
+def parchment(W, H, seed=3):
+    """Aged paper: warm base, soft mottling, darker burnt edges, faint map lines (no external texture needed)."""
+    rng = np.random.default_rng(seed)
+    base = np.array([233, 218, 184], np.float32)
+    def blob(scale, amp):
+        small = rng.standard_normal((max(2, H // scale), max(2, W // scale))).astype(np.float32)
+        im = Image.fromarray(((small - small.min()) / (np.ptp(small) + 1e-6) * 255).astype(np.uint8)).resize((W, H), Image.BICUBIC)
+        return (np.asarray(im).astype(np.float32) / 255 - 0.5) * amp
+    m = blob(64, 26) + blob(16, 12) + blob(4, 6)
+    yy, xx = np.mgrid[0:H, 0:W]
+    r = np.sqrt(((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2)
+    burn = np.clip(r - 0.62, 0, 1) ** 1.6 * 150
+    arr = base[None, None, :] + m[..., None] - burn[..., None] * np.array([0.75, 0.95, 1.2])
+    im = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+    g = Image.new("L", (W, H), 0); d = ImageDraw.Draw(g)
+    for y in range(-H, 2 * H, max(70, H // 10)):
+        d.line([(x, y + 0.0001 * (x - W / 2) ** 2) for x in range(0, W + 40, 40)], fill=46, width=2)
+    for x in range(0, W + 1, max(90, W // 14)):
+        d.line([(x + 0.06 * (W / 2 - x) * math.sin(math.pi * yy_ / H), yy_) for yy_ in range(0, H + 40, 40)], fill=34, width=2)
+    return Image.composite(Image.new("RGB", (W, H), SEPIA), im, g.point(lambda v: v // 2))
+
+
+def ornament(width, color, t=1.0):
+    """Two engraved rules with a centre diamond, grown by t (0..1)."""
+    h = 36; im = Image.new("RGBA", (width, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    cx, cy = width / 2, h / 2; half = (width / 2 - 30) * ease(t)
+    if half > 2:
+        d.line((cx - 26 - half, cy, cx - 26, cy), fill=color, width=3); d.line((cx + 26, cy, cx + 26 + half, cy), fill=color, width=3)
+        d.line((cx - 26 - half * 0.8, cy + 7, cx - 30, cy + 7), fill=color + (140,), width=1)
+        d.line((cx + 30, cy + 7, cx + 26 + half * 0.8, cy + 7), fill=color + (140,), width=1)
+    k = 14 * ease(t * 1.5)
+    if k > 1: d.polygon([(cx, cy - k), (cx + k, cy), (cx, cy + k), (cx - k, cy)], fill=color)
+    return im
+
+
 def chapter_card(card, W, H, out, dur=CARD_DUR):
-    bg = map_bg(W, H).convert("RGBA")
+    bg = parchment(W, H).convert("RGBA")
     long = W > H
-    lg = logo(150 if long else 190)
-    kick = text_img(card.get("kicker", "").upper(), F("Inter-SemiBold.otf", 34 if long else 44), GOLD, spacing=9)
-    tf = F("Cinzel-Bold.ttf", 104 if long else 112)
-    lines = wrap(card["title"].upper(), tf, W * 0.8)
-    while len(lines) > 2 and tf.size > 60:
-        tf = F("Cinzel-Bold.ttf", tf.size - 8); lines = wrap(card["title"].upper(), tf, W * 0.8)
-    tl = [text_img(l, tf, GOLD_L) for l in lines]
-    th = sum(t.height for t in tl) + 14 * (len(tl) - 1)
-    total = lg.height + 40 + kick.height + 36 + th
+    lg = logo(120 if long else 160)
+    kick = text_img(card.get("kicker", ""), F("Cormorant-MediumItalic.ttf", 58 if long else 70), SEPIA)
+    tf = F("Cinzel-Bold.ttf", 108 if long else 104)
+    lines = wrap(card["title"].upper(), tf, W * 0.78)
+    while len(lines) > (2 if long else 3) and tf.size > 60:
+        tf = F("Cinzel-Bold.ttf", tf.size - 8); lines = wrap(card["title"].upper(), tf, W * 0.78)
+    tl = [text_img(l, tf, INK) for l in lines]
+    th = sum(t.height for t in tl) + 10 * (len(tl) - 1)
+    total = lg.height + 34 + kick.height + 26 + th + 70
     y0 = (H - total) / 2
+    ow = int(W * (0.42 if long else 0.7))
 
     def frame(t):
-        z = 1 + 0.03 * t / dur
+        z = 1 + 0.025 * t / dur
         c = bg.resize((int(W * z), int(H * z)), Image.BILINEAR).crop(
             (int((W * z - W) / 2), int((H * z - H) / 2), int((W * z - W) / 2) + W, int((H * z - H) / 2) + H))
-        fade_out = 1 - max(0, (t - (dur - 0.35)) / 0.35)
-        a1, a2, a3 = ease(t / 0.5), ease((t - 0.25) / 0.5), ease((t - 0.45) / 0.6)
-        paste_alpha(c, lg, (W - lg.width) / 2, y0 + 20 * (1 - a1), a1 * fade_out)
-        yk = y0 + lg.height + 40
-        paste_alpha(c, kick, (W - kick.width) / 2, yk, a2 * fade_out)
-        y = yk + kick.height + 36
+        fo = 1 - max(0, (t - (dur - 0.4)) / 0.4)
+        a1, a2, a3 = ease(t / 0.5), ease((t - 0.2) / 0.5), ease((t - 0.4) / 0.7)
+        paste_alpha(c, lg, (W - lg.width) / 2, y0, a1 * fo)
+        yk = y0 + lg.height + 34
+        paste_alpha(c, kick, (W - kick.width) / 2, yk + 10 * (1 - a2), a2 * fo)
+        y = yk + kick.height + 26
         for t_ in tl:
-            paste_alpha(c, t_, (W - t_.width) / 2, y + 26 * (1 - a3), a3 * fade_out); y += t_.height + 14
-        # gold rules grow out from the centre
-        d = ImageDraw.Draw(c); half = int(W * 0.18 * ease((t - 0.5) / 0.7))
-        if half > 2 and fade_out > 0.05:
-            col = GOLD + (int(255 * fade_out),)
-            d.rectangle((W / 2 - half, y + 12, W / 2 + half, y + 16), fill=col)
+            paste_alpha(c, t_, (W - t_.width) / 2, y + 18 * (1 - a3), a3 * fo); y += t_.height + 10
+        paste_alpha(c, ornament(ow, SEPIA, (t - 0.6) / 0.8), (W - ow) / 2, y + 24, fo)
+        if fo < 1:   # fade to black for a clean cut back to the film
+            c = Image.blend(Image.new("RGBA", (W, H), (0, 0, 0, 255)), c, fo)
         return c
     pipe_frames(frame, int(round(dur * FPS)), W, H, out)
 
@@ -186,7 +223,7 @@ def stat_segment(stat, still, W, H, out, dur):
     bg = still.filter(ImageFilter.GaussianBlur(18))
     bg = Image.blend(bg, Image.new("RGB", (W, H), NAVY_D), 0.62).convert("RGBA")
     nf = F("Cinzel-Bold.ttf", 190 if long else 170)
-    lf = F("Inter-SemiBold.otf", 50 if long else 56)
+    lf = F("Cormorant-MediumItalic.ttf", 64 if long else 70)
     dec = int(stat.get("decimals", 0)); val = float(stat["value"])
     label_lines = wrap(stat.get("label", ""), lf, W * 0.75)
     labels = [text_img(l, lf, PARCH) for l in label_lines]
@@ -285,27 +322,47 @@ def ass_time(t):
     return f"{h}:{m:02d}:{s:05.2f}"
 
 
+def _balance(text):
+    """One caption = one or two balanced lines (break at a comma near the middle if there is one)."""
+    if len(text) <= 46: return text
+    words = text.split(); best, bi = 1e9, 1
+    for i in range(1, len(words)):
+        left = " ".join(words[:i]); diff = abs(len(left) - len(text) / 2)
+        if left.endswith(","): diff -= 8
+        if diff < best: best, bi = diff, i
+    return " ".join(words[:bi]) + "\\N" + " ".join(words[bi:])
+
+
 def sentences(text):
-    parts = re.split(r"(?<=[.!?])\s+", text.strip())
+    """Caption chunks: whole sentences up to ~92 chars (two lines), longer ones split at commas / near the middle."""
     out = []
-    for p in parts:
-        if len(p) <= 84: out.append(p); continue
-        words, cur = p.split(), ""      # split long sentences at commas / near the middle
-        for w in words:
-            if len(cur) + len(w) > 70 and cur: out.append(cur); cur = w
-            else: cur = (cur + " " + w).strip()
-        if cur: out.append(cur)
-    return [o for o in out if o]
+    for p in re.split(r"(?<=[.!?])\s+", text.strip()):
+        parts = [p]
+        while any(len(x) > 92 for x in parts):
+            nxt = []
+            for x in parts:
+                if len(x) <= 92: nxt.append(x); continue
+                commas = [m.end() for m in re.finditer(r",\s", x)]
+                cut = min(commas, key=lambda c: abs(c - len(x) / 2)) if commas else None
+                if not cut or not (0.25 < cut / len(x) < 0.75):
+                    w = x.split(); acc = 0; cut = None
+                    for i, ww in enumerate(w):
+                        acc += len(ww) + 1
+                        if acc >= len(x) / 2: cut = acc; break
+                nxt += [x[:cut].strip(), x[cut:].strip()]
+            parts = nxt
+        out += [x for x in parts if x]
+    return out
 
 
 def make_ass(timeline, W, H, short, path):
-    gold = "&H004AB2E0"; white = "&H00FFFFFF"
+    gold = "&H004AB2E0"; white = "&H00FFFFFF"; cream = "&H00D9ECF6"
     if short:
-        style = (f"Style: Cap,Inter Black,88,{white},{gold},&H00101010,&H64000000,-1,0,0,0,100,100,3,0,1,6,2,2,70,70,{int(H*0.30)},1\n"
-                 f"Style: Hook,Inter Black,92,&H00A6E6FB,{gold},&H001B0F07,&H001B0F07,-1,0,0,0,100,100,2,0,3,22,0,8,60,60,{int(H*0.12)},1\n")
+        style = (f"Style: Cap,LoE Display,84,{cream},{gold},&H00101A26,&H8C000000,0,0,0,0,100,100,2,0,1,6,3,2,70,70,{int(H*0.30)},1\n"
+                 f"Style: Hook,LoE Display,88,{cream},{gold},&H00101A26,&H96000000,0,0,0,0,100,100,2,0,1,6,4,8,60,60,{int(H*0.11)},1\n")
     else:
-        style = (f"Style: Cap,Inter SemiBold,46,{white},{gold},&H00000000,&H8C0A0F1B,0,0,0,0,100,100,0,0,3,14,0,2,260,260,64,1\n"
-                 f"Style: Hook,Inter Black,72,&H00A6E6FB,{gold},&H001B0F07,&H001B0F07,-1,0,0,0,100,100,2,0,3,20,0,8,100,100,80,1\n")
+        style = (f"Style: Cap,LoE Serif Bold,70,{cream},{gold},&H00141A22,&H96000000,0,0,0,0,100,100,0.5,0,1,2.4,2,2,330,330,62,1\n"
+                 f"Style: Hook,LoE Display,78,{cream},{gold},&H00141A22,&H96000000,0,0,0,0,100,100,3,0,1,3,3,8,120,120,90,1\n")
     lines = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "",
              "[V4+ Styles]",
              "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
@@ -330,7 +387,7 @@ def make_ass(timeline, W, H, short, path):
             sents = sentences(text); total = sum(len(s) for s in sents); t = t0
             for s in sents:
                 d = dur * len(s) / total
-                lines.append(f"Dialogue: 0,{ass_time(t)},{ass_time(t + d - 0.05)},Cap,,0,0,0,,{{\\fad(120,120)}}{s}")
+                lines.append(f"Dialogue: 0,{ass_time(t)},{ass_time(t + d - 0.05)},Cap,,0,0,0,,{{\\fad(120,120)}}{_balance(s)}")
                 t += d
     Path(path).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -458,8 +515,14 @@ def render(spec, bd, stock_dir, music_dir, out, voice_wavs, used_recent=(), seed
     sh("ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", bd / "concat.txt", "-c", "copy", bd / "video_raw.mp4")
     make_ass(timeline, W, H, short, bd / "captions.ass")
     chosen = build_audio(timeline, bd, music_dir, meta, set(used_recent), total, short)
-    sub = f"subtitles={bd / 'captions.ass'}:fontsdir={FONTS}"
-    sh("ffmpeg", "-loglevel", "error", "-y", "-i", bd / "video_raw.mp4", "-i", bd / "mix.wav", "-vf", sub,
+    grad = np.zeros((H, W, 4), np.uint8); h0 = int(H * (0.62 if not short else 0.0))
+    if not short:
+        ramp = np.clip((np.arange(H) - h0) / (H - h0), 0, 1) ** 1.4 * 150
+        grad[..., 3] = ramp[:, None].astype(np.uint8)
+    Image.fromarray(grad, "RGBA").save(bd / "grad.png")
+    sub = f"[0:v][2:v]overlay=0:0[g];[g]subtitles={bd / 'captions.ass'}:fontsdir={FONTS}[v]"
+    sh("ffmpeg", "-loglevel", "error", "-y", "-i", bd / "video_raw.mp4", "-i", bd / "mix.wav", "-i", bd / "grad.png",
+       "-filter_complex", sub, "-map", "[v]", "-map", "1:a",
        *X264, "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", out)
     fit_size(out)
     chapters = [{"t": 0.0, "title": spec.get("cold_open_title", "Intro")}]
