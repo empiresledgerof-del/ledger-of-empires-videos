@@ -7,16 +7,17 @@
   "am_michael",
   "bf_emma"
  ],
- "next_voice_index": 1,
+ "next_voice_index": 2,
  "music_rotation": [],
  "next_music_index": 0,
  "posts_this_month": {
   "month": "2026-11",
-  "count": 2
+  "count": 3
  },
  "vidiq_credits_used": {
   "month": "2026-11",
-  "count": 0
+  "count": 15,
+  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov"
  },
  "videos": [
   {
@@ -59,10 +60,41 @@
    "series": "How ... Got Rich",
    "pillar": "great-fortunes",
    "voice": "am_michael",
-   "status": "draft",
-   "planned_slot_pkt": "2026-11-25T00:30",
+   "status": "scheduled",
    "slot": "B",
-   "note": "Script drafted + facts checked + voice timed (536 s speech) on Sat 21 Nov run. Mon run: stock, thumbs, render, publish. Voice index not yet advanced."
+   "length_s": 563.6,
+   "slot_pkt": "2026-11-25T00:30",
+   "metricool_post_id": 437971601,
+   "cloudinary": "ledger-of-empires/002-rockefeller-ledger",
+   "thumb": "thumb_1 EVERY PENNY",
+   "music": [
+    "growth-decay-density-time.mp3",
+    "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "was-will-die-einsame-thrane-half-cool-moregoodthanbad.mp3",
+    "growth-decay-density-time.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "growth-decay-density-time.mp3",
+    "growth-decay-density-time.mp3",
+    "was-will-die-einsame-thrane-half-cool-moregoodthanbad.mp3",
+    "growth-decay-density-time.mp3",
+    "didos-lament-from-dido-and-aeneas-henry-purcell-golden-cut-reborn.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "didos-lament-from-dido-and-aeneas-henry-purcell-golden-cut-reborn.mp3",
+    "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3"
+   ]
   }
  ]
 }
