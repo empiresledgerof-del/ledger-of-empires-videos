@@ -1,0 +1,341 @@
+{
+ "id": "002-rockefeller-ledger",
+ "orient": "landscape",
+ "items": [
+  {
+   "name": "s0_0",
+   "q": "account book ledger 19th century handwriting",
+   "kind": "commons"
+  },
+  {
+   "name": "s0_1",
+   "q": "quill pen writing old paper",
+   "kind": "video"
+  },
+  {
+   "name": "s0_2",
+   "q": "John D. Rockefeller 1857 photograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_0",
+   "q": "John D. Rockefeller portrait 1910s",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_1",
+   "q": "gold coins falling close up",
+   "kind": "video"
+  },
+  {
+   "name": "s2_0",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s2_1",
+   "q": "old book pages turning",
+   "kind": "video"
+  },
+  {
+   "name": "s4_0",
+   "q": "Richford New York Rockefeller birthplace",
+   "kind": "commons"
+  },
+  {
+   "name": "s4_1",
+   "q": "19th century patent medicine bottle advertisement",
+   "kind": "commons"
+  },
+  {
+   "name": "s5_0",
+   "q": "19th century American farmhouse painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s5_1",
+   "q": "old bible pages candle",
+   "kind": "video"
+  },
+  {
+   "name": "s6_0",
+   "q": "Cleveland Ohio 1850s engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_1",
+   "q": "Cuyahoga River Cleveland 19th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s7_0",
+   "q": "Cleveland harbor 1850s ships lithograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s7_1",
+   "q": "grain sacks wheat close up",
+   "kind": "video"
+  },
+  {
+   "name": "s8_0",
+   "q": "hourglass sand time",
+   "kind": "video"
+  },
+  {
+   "name": "s8_1",
+   "q": "old dollar banknotes 19th century",
+   "kind": "photo"
+  },
+  {
+   "name": "s10_0",
+   "q": "19th century memorandum book",
+   "kind": "commons"
+  },
+  {
+   "name": "s10_1",
+   "q": "writing with fountain pen close up",
+   "kind": "video"
+  },
+  {
+   "name": "s11_0",
+   "q": "Erie Street Baptist church Cleveland",
+   "kind": "commons"
+  },
+  {
+   "name": "s11_1",
+   "q": "old copper pennies",
+   "kind": "photo"
+  },
+  {
+   "name": "s12_0",
+   "q": "coins in hand old",
+   "kind": "photo"
+  },
+  {
+   "name": "s12_1",
+   "q": "candle light old room",
+   "kind": "video"
+  },
+  {
+   "name": "s13_0",
+   "q": "old book closing dust",
+   "kind": "video"
+  },
+  {
+   "name": "s13_1",
+   "q": "hourglass",
+   "kind": "video"
+  },
+  {
+   "name": "s14_0",
+   "q": "Fifth Avenue Baptist Church New York 19th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s14_1",
+   "q": "John D. Rockefeller 1890s portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s15_0",
+   "q": "candle flame flicker dark",
+   "kind": "video"
+  },
+  {
+   "name": "s17_0",
+   "q": "19th century merchant counting house painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s17_1",
+   "q": "old papers desk candle",
+   "kind": "video"
+  },
+  {
+   "name": "s18_0",
+   "q": "Cleveland 1860s street lithograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s18_1",
+   "q": "antique coins stack",
+   "kind": "photo"
+  },
+  {
+   "name": "s19_0",
+   "q": "19th century loan document handwritten",
+   "kind": "commons"
+  },
+  {
+   "name": "s19_1",
+   "q": "hourglass sand falling",
+   "kind": "video"
+  },
+  {
+   "name": "s20_0",
+   "q": "Drake well Titusville 1859 photograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s20_1",
+   "q": "oil lamp flame",
+   "kind": "video"
+  },
+  {
+   "name": "s20_2",
+   "q": "Pennsylvania oil region 1860s wells photograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s21_0",
+   "q": "Cleveland oil refinery 1860s",
+   "kind": "commons"
+  },
+  {
+   "name": "s21_1",
+   "q": "fire flames dark",
+   "kind": "video"
+  },
+  {
+   "name": "s22_0",
+   "q": "Rockefeller and Andrews refinery Cleveland",
+   "kind": "commons"
+  },
+  {
+   "name": "s22_1",
+   "q": "gold coins close up",
+   "kind": "video"
+  },
+  {
+   "name": "s23_0",
+   "q": "Standard Oil Company certificate 1870s",
+   "kind": "commons"
+  },
+  {
+   "name": "s23_1",
+   "q": "Standard Oil Cleveland 1870s",
+   "kind": "commons"
+  },
+  {
+   "name": "s25_0",
+   "q": "kerosene can 19th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s25_1",
+   "q": "metal welding sparks close up",
+   "kind": "video"
+  },
+  {
+   "name": "s26_0",
+   "q": "Standard Oil kerosene advertisement 19th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s26_1",
+   "q": "drops of liquid slow motion",
+   "kind": "video"
+  },
+  {
+   "name": "s27_0",
+   "q": "Standard Oil refinery 1880s photograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s28_0",
+   "q": "railroad oil tank cars 19th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s28_1",
+   "q": "Cleveland Flats refineries 1870s",
+   "kind": "commons"
+  },
+  {
+   "name": "s29_0",
+   "q": "Puck cartoon Standard Oil octopus Keppler 1904",
+   "kind": "commons"
+  },
+  {
+   "name": "s30_0",
+   "q": "Ida Tarbell portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s30_1",
+   "q": "McClure's magazine 1902 cover",
+   "kind": "commons"
+  },
+  {
+   "name": "s30_2",
+   "q": "United States Supreme Court 1911 justices",
+   "kind": "commons"
+  },
+  {
+   "name": "s31_0",
+   "q": "John D. Rockefeller 1910s photograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s31_1",
+   "q": "gold coins pile",
+   "kind": "video"
+  },
+  {
+   "name": "s32_0",
+   "q": "University of Chicago 1890s photograph",
+   "kind": "commons"
+  },
+  {
+   "name": "s32_1",
+   "q": "The Casements Ormond Beach",
+   "kind": "commons"
+  },
+  {
+   "name": "s34_0",
+   "q": "old book pages turning",
+   "kind": "video"
+  },
+  {
+   "name": "s35_0",
+   "q": "quill pen writing old paper",
+   "kind": "video"
+  },
+  {
+   "name": "s36_0",
+   "q": "water drops slow motion",
+   "kind": "video"
+  },
+  {
+   "name": "s36_1",
+   "q": "hourglass sand time",
+   "kind": "video"
+  },
+  {
+   "name": "s37_0",
+   "q": "Puck cartoon Rockefeller 1900s",
+   "kind": "commons"
+  },
+  {
+   "name": "s37_1",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s38_0",
+   "q": "account book ledger 19th century handwriting",
+   "kind": "commons"
+  },
+  {
+   "name": "s39_0",
+   "q": "South Sea Bubble 1720 engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s39_1",
+   "q": "Isaac Newton portrait Kneller",
+   "kind": "commons"
+  }
+ ]
+}
