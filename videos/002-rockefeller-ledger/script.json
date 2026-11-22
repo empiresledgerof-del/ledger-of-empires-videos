@@ -40,7 +40,9 @@
     }
    ],
    "shots": [
-    "s0_1.mp4@1"
+    "s0_1.mp4@1",
+    "s0_0.jpg",
+    "s0_2.jpg"
    ],
    "hook": "EVERY. SINGLE. CENT."
   },
@@ -53,7 +55,7 @@
      "kind": "commons"
     },
     {
-     "q": "gold coins slow motion",
+     "q": "gold coins",
      "kind": "video"
     }
    ],
@@ -92,15 +94,18 @@
    "say": "John Davison Rockefeller was born on the eighth of July, eighteen thirty-nine, in Richford, a small town in New York State. His father, William, was a travelling seller of bottled so-called cures, and he was often away from home. Years later, it came out that he had lived a second life under another name, with another wife.",
    "find": [
     {
-     "q": "Richford New York",
-     "kind": "commons"
+     "q": "antique apothecary bottles",
+     "kind": "photo"
     },
     {
      "q": "patent medicine",
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s4_0.jpg",
+    "s4_1.png"
+   ]
   },
   {
    "mood": "reflective",
@@ -143,7 +148,7 @@
    "say": "Then, on the twenty-sixth of September, eighteen fifty-five, a firm called Hewitt and Tuttle, which shipped grain and other produce, hired him as an assistant bookkeeper. He celebrated that date every year for the rest of his life. Some said it meant more to him than his own birthday.",
    "find": [
     {
-     "q": "Cleveland harbor",
+     "q": "Cleveland 1850",
      "kind": "commons"
     },
     {
@@ -152,7 +157,8 @@
     }
    ],
    "shots": [
-    "s7_1.mp4@1"
+    "s7_1.mp4@1",
+    "s7_0.jpg"
    ]
   },
   {
@@ -164,7 +170,7 @@
      "kind": "video"
     },
     {
-     "q": "obsolete banknote",
+     "q": "Ohio banknote",
      "kind": "commons"
     }
    ],
@@ -199,6 +205,7 @@
     }
    ],
    "shots": [
+    "s10_0.jpg",
     "s10_1.mp4@1"
    ]
   },
@@ -258,8 +265,8 @@
     }
    ],
    "shots": [
-    "s13_0.mp4@1",
-    "s13_1.mp4@1"
+    "s13_1.mp4@1",
+    "s13_0.mp4@1"
    ]
   },
   {
@@ -267,7 +274,7 @@
    "say": "More than forty years later, in eighteen ninety-seven, he was one of the richest men in the world. He stood before a class of young men at his church in New York and talked about that old book. 'It almost brings tears to my eyes,' he said, 'when I read over this little book.' And he told them they could not get it from him for all the modern ledgers in New York.",
    "find": [
     {
-     "q": "Fifth Avenue Baptist",
+     "q": "Fifth Avenue New York 1890",
      "kind": "commons"
     },
     {
@@ -276,7 +283,8 @@
     }
    ],
    "shots": [
-    "s14_1.jpg"
+    "s14_1.jpg",
+    "s14_0.jpg"
    ]
   },
   {
@@ -304,7 +312,7 @@
    "say": "At Hewitt and Tuttle, John checked every bill that came in, line by line, as if the money were his own. He learned how money moves through a business: who owes what, who pays late, and where profit quietly leaks away.",
    "find": [
     {
-     "q": "counting house",
+     "q": "Massys moneylender wife",
      "kind": "commons"
     },
     {
@@ -313,7 +321,8 @@
     }
    ],
    "shots": [
-    "s17_1.mp4@1"
+    "s17_1.mp4@1",
+    "s17_0.jpg"
    ]
   },
   {
@@ -330,7 +339,8 @@
     }
    ],
    "shots": [
-    "s18_1.jpg"
+    "s18_1.jpg",
+    "s18_0.jpg"
    ]
   },
   {
@@ -338,7 +348,7 @@
    "say": "John had saved about a thousand. For the rest, he went to his father, who agreed to lend it, but not as a gift. 'But, John,' his father said, 'the rate is ten.' Ten percent interest, from his own father.",
    "find": [
     {
-     "q": "old letter wax seal",
+     "q": "old document parchment",
      "kind": "video"
     },
     {
@@ -347,7 +357,8 @@
     }
    ],
    "shots": [
-    "s19_1.mp4@1"
+    "s19_1.mp4@1",
+    "s19_0.mp4@1"
    ]
   },
   {
@@ -363,13 +374,13 @@
      "kind": "video"
     },
     {
-     "q": "Oil Creek Pennsylvania",
+     "q": "Titusville oil",
      "kind": "commons"
     }
    ],
    "shots": [
-    "s20_0.jpg",
-    "s20_1.mp4@1"
+    "s20_1.mp4@1",
+    "s20_0.jpg"
    ]
   },
   {
@@ -377,7 +388,7 @@
    "say": "In eighteen sixty-three, Rockefeller and Clark joined a chemist named Samuel Andrews to build an oil refinery in Cleveland. But John and the Clarks argued about how fast to grow. In February eighteen sixty-five, they settled it in a strange way: an auction between the partners. The winner would take the refinery.",
    "find": [
     {
-     "q": "Cleveland refinery",
+     "q": "oil refinery engraving",
      "kind": "commons"
     },
     {
@@ -386,7 +397,8 @@
     }
    ],
    "shots": [
-    "s21_1.mp4@1"
+    "s21_1.mp4@1",
+    "s21_0.jpg"
    ]
   },
   {
@@ -398,7 +410,7 @@
      "kind": "commons"
     },
     {
-     "q": "coins falling slow motion",
+     "q": "coins pile",
      "kind": "video"
     }
    ],
@@ -446,13 +458,13 @@
      "kind": "commons"
     },
     {
-     "q": "tinsmith",
-     "kind": "commons"
+     "q": "old tin can",
+     "kind": "photo"
     }
    ],
    "shots": [
     "s25_0.jpg",
-    "s25_1.mp4@1"
+    "s25_1.jpg"
    ]
   },
   {
@@ -469,7 +481,8 @@
     }
    ],
    "shots": [
-    "s26_1.mp4@1"
+    "s26_1.mp4@1",
+    "s26_0.jpg"
    ]
   },
   {
@@ -482,7 +495,7 @@
     }
    ],
    "shots": [
-    "s27_0.png"
+    "s27_0.jpg"
    ]
   },
   {
@@ -494,12 +507,12 @@
      "kind": "commons"
     },
     {
-     "q": "Cleveland Flats",
+     "q": "railroad oil cars",
      "kind": "commons"
     }
    ],
    "shots": [
-    "s28_1.jpg"
+    "s28_0.jpg"
    ]
   },
   {
@@ -539,8 +552,8 @@
    ],
    "shots": [
     "s30_0.jpg",
-    "s30_1.jpg",
-    "s30_2.jpg"
+    "s30_2.jpg",
+    "s30_1.jpg"
    ]
   },
   {
@@ -576,7 +589,7 @@
      "kind": "commons"
     },
     {
-     "q": "Casements Ormond",
+     "q": "Ormond Beach Casements",
      "kind": "commons"
     }
    ],
@@ -641,7 +654,7 @@
    "say": "Third, and this is what the ledger could not teach him: counting tells you how much, not whether it is right. The same habit that saved pennies also helped him squeeze his rivals until a court stepped in. Numbers are a tool. You still decide what kind of person uses them.",
    "find": [
     {
-     "q": "Rockefeller Puck",
+     "q": "Rockefeller cartoon",
      "kind": "commons"
     },
     {
@@ -650,8 +663,8 @@
     }
    ],
    "shots": [
-    "s37_0.jpg",
-    "s37_1.mp4@1"
+    "s37_1.mp4@1",
+    "s37_0.jpg"
    ]
   },
   {
@@ -663,7 +676,9 @@
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s38_0.jpg"
+   ]
   },
   {
    "mood": "reflective",

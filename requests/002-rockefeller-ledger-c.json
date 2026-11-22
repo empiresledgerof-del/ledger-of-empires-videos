@@ -1,0 +1,76 @@
+{
+ "id": "002-rockefeller-ledger-c",
+ "orient": "landscape",
+ "items": [
+  {
+   "name": "s1_1",
+   "q": "gold coins",
+   "kind": "video"
+  },
+  {
+   "name": "s4_0",
+   "q": "antique apothecary bottles",
+   "kind": "photo"
+  },
+  {
+   "name": "s7_0",
+   "q": "Cleveland 1850",
+   "kind": "commons"
+  },
+  {
+   "name": "s8_1",
+   "q": "Ohio banknote",
+   "kind": "commons"
+  },
+  {
+   "name": "s14_0",
+   "q": "Fifth Avenue New York 1890",
+   "kind": "commons"
+  },
+  {
+   "name": "s17_0",
+   "q": "Massys moneylender wife",
+   "kind": "commons"
+  },
+  {
+   "name": "s19_0",
+   "q": "old document parchment",
+   "kind": "video"
+  },
+  {
+   "name": "s20_2",
+   "q": "Titusville oil",
+   "kind": "commons"
+  },
+  {
+   "name": "s21_0",
+   "q": "oil refinery engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s22_1",
+   "q": "coins pile",
+   "kind": "video"
+  },
+  {
+   "name": "s25_1",
+   "q": "old tin can",
+   "kind": "photo"
+  },
+  {
+   "name": "s28_1",
+   "q": "railroad oil cars",
+   "kind": "commons"
+  },
+  {
+   "name": "s32_1",
+   "q": "Ormond Beach Casements",
+   "kind": "commons"
+  },
+  {
+   "name": "s37_0",
+   "q": "Rockefeller cartoon",
+   "kind": "commons"
+  }
+ ]
+}
