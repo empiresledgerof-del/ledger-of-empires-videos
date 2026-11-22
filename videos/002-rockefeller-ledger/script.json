@@ -27,7 +27,7 @@
    "say": "Cleveland, Ohio, the winter of eighteen fifty-five. A sixteen-year-old bookkeeper opens a cheap little notebook and writes down every cent he earns, and every cent he spends. His rent. His laundry. A single penny for church.",
    "find": [
     {
-     "q": "account book ledger 19th century handwriting",
+     "q": "account book manuscript",
      "kind": "commons"
     },
     {
@@ -35,11 +35,13 @@
      "kind": "video"
     },
     {
-     "q": "John D. Rockefeller 1857 photograph",
+     "q": "John D. Rockefeller young",
      "kind": "commons"
     }
    ],
-   "shots": [],
+   "shots": [
+    "s0_1.mp4@1"
+   ],
    "hook": "EVERY. SINGLE. CENT."
   },
   {
@@ -47,15 +49,18 @@
    "say": "About fifty years later, that same boy is the richest man in America. And he says he would not trade that little book for all the ledgers in New York.",
    "find": [
     {
-     "q": "John D. Rockefeller portrait 1910s",
+     "q": "John D. Rockefeller 1917",
      "kind": "commons"
     },
     {
-     "q": "gold coins falling close up",
+     "q": "gold coins slow motion",
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s1_0.jpg",
+    "s1_1.mp4@1"
+   ]
   },
   {
    "mood": "mystery",
@@ -70,7 +75,10 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s2_0.mp4@1",
+    "s2_1.mp4@1"
+   ]
   },
   {
    "card": {
@@ -84,11 +92,11 @@
    "say": "John Davison Rockefeller was born on the eighth of July, eighteen thirty-nine, in Richford, a small town in New York State. His father, William, was a travelling seller of bottled so-called cures, and he was often away from home. Years later, it came out that he had lived a second life under another name, with another wife.",
    "find": [
     {
-     "q": "Richford New York Rockefeller birthplace",
+     "q": "Richford New York",
      "kind": "commons"
     },
     {
-     "q": "19th century patent medicine bottle advertisement",
+     "q": "patent medicine",
      "kind": "commons"
     }
    ],
@@ -107,7 +115,10 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s5_0.jpg",
+    "s5_1.mp4@1"
+   ]
   },
   {
    "mood": "mystery",
@@ -122,14 +133,17 @@
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s6_0.jpg",
+    "s6_1.jpg"
+   ]
   },
   {
    "mood": "triumph",
    "say": "Then, on the twenty-sixth of September, eighteen fifty-five, a firm called Hewitt and Tuttle, which shipped grain and other produce, hired him as an assistant bookkeeper. He celebrated that date every year for the rest of his life. Some said it meant more to him than his own birthday.",
    "find": [
     {
-     "q": "Cleveland harbor 1850s ships lithograph",
+     "q": "Cleveland harbor",
      "kind": "commons"
     },
     {
@@ -137,7 +151,9 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s7_1.mp4@1"
+   ]
   },
   {
    "mood": "tension",
@@ -148,11 +164,14 @@
      "kind": "video"
     },
     {
-     "q": "old dollar banknotes 19th century",
-     "kind": "photo"
+     "q": "obsolete banknote",
+     "kind": "commons"
     }
    ],
-   "shots": [],
+   "shots": [
+    "s8_0.mp4@1",
+    "s8_1.jpg"
+   ],
    "stat": {
     "value": 50,
     "prefix": "$",
@@ -171,15 +190,17 @@
    "say": "He called it Ledger A. A small, paper-covered memorandum book, the kind you could buy at any stationer's shop. On each line he wrote what came in, and what went out. Nothing was too small to count.",
    "find": [
     {
-     "q": "19th century memorandum book",
+     "q": "ledger manuscript 1850",
      "kind": "commons"
     },
     {
-     "q": "writing with fountain pen close up",
+     "q": "quill ink writing",
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s10_1.mp4@1"
+   ]
   },
   {
    "mood": "reflective",
@@ -190,26 +211,32 @@
      "kind": "commons"
     },
     {
-     "q": "old copper pennies",
+     "q": "antique copper coins",
      "kind": "photo"
     }
    ],
-   "shots": []
+   "shots": [
+    "s11_0.jpg",
+    "s11_1.jpg"
+   ]
   },
   {
    "mood": "reflective",
    "say": "In eighteen fifty-six he earned about three hundred dollars. His own records show he gave away nineteen dollars and thirty-one cents of it. That is about six percent, from a teenager who had almost nothing.",
    "find": [
     {
-     "q": "coins in hand old",
+     "q": "old coins wooden table",
      "kind": "photo"
     },
     {
-     "q": "candle light old room",
+     "q": "candle old book",
      "kind": "video"
     }
    ],
-   "shots": [],
+   "shots": [
+    "s12_0.jpg",
+    "s12_1.mp4@1"
+   ],
    "stat": {
     "value": 19.31,
     "prefix": "$",
@@ -222,7 +249,7 @@
    "say": "Why does this matter? Because the ledger was not about being cheap. It was about knowing. When you write every cent down, you cannot lie to yourself about where your money goes.",
    "find": [
     {
-     "q": "old book closing dust",
+     "q": "antique book",
      "kind": "video"
     },
     {
@@ -230,14 +257,17 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s13_0.mp4@1",
+    "s13_1.mp4@1"
+   ]
   },
   {
    "mood": "lament",
    "say": "More than forty years later, in eighteen ninety-seven, he was one of the richest men in the world. He stood before a class of young men at his church in New York and talked about that old book. 'It almost brings tears to my eyes,' he said, 'when I read over this little book.' And he told them they could not get it from him for all the modern ledgers in New York.",
    "find": [
     {
-     "q": "Fifth Avenue Baptist Church New York 19th century",
+     "q": "Fifth Avenue Baptist",
      "kind": "commons"
     },
     {
@@ -245,18 +275,22 @@
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s14_1.jpg"
+   ]
   },
   {
    "mood": "tension",
    "say": "But a notebook alone does not make anyone rich. What he did next with those numbers is where the story turns.",
    "find": [
     {
-     "q": "candle flame flicker dark",
+     "q": "single candle flame",
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s15_0.mp4@1"
+   ]
   },
   {
    "card": {
@@ -270,7 +304,7 @@
    "say": "At Hewitt and Tuttle, John checked every bill that came in, line by line, as if the money were his own. He learned how money moves through a business: who owes what, who pays late, and where profit quietly leaks away.",
    "find": [
     {
-     "q": "19th century merchant counting house painting",
+     "q": "counting house",
      "kind": "commons"
     },
     {
@@ -278,14 +312,16 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s17_1.mp4@1"
+   ]
   },
   {
    "mood": "triumph",
    "say": "His pay rose to twenty-five dollars a month, then to five hundred dollars a year. And he kept saving. In March, eighteen fifty-nine, at just nineteen, he started his own business with a partner named Maurice Clark. Each of them had to put in two thousand dollars.",
    "find": [
     {
-     "q": "Cleveland 1860s street lithograph",
+     "q": "Superior Street Cleveland",
      "kind": "commons"
     },
     {
@@ -293,29 +329,33 @@
      "kind": "photo"
     }
    ],
-   "shots": []
+   "shots": [
+    "s18_1.jpg"
+   ]
   },
   {
    "mood": "tension",
    "say": "John had saved about a thousand. For the rest, he went to his father, who agreed to lend it, but not as a gift. 'But, John,' his father said, 'the rate is ten.' Ten percent interest, from his own father.",
    "find": [
     {
-     "q": "19th century loan document handwritten",
-     "kind": "commons"
+     "q": "old letter wax seal",
+     "kind": "video"
     },
     {
      "q": "hourglass sand falling",
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s19_1.mp4@1"
+   ]
   },
   {
    "mood": "triumph",
    "say": "The new firm did well. Then, that same year, in western Pennsylvania, not far from Cleveland, men drilling into the ground struck oil. Suddenly there was a product everyone wanted: kerosene, to light lamps after dark.",
    "find": [
     {
-     "q": "Drake well Titusville 1859 photograph",
+     "q": "Drake Well",
      "kind": "commons"
     },
     {
@@ -323,18 +363,21 @@
      "kind": "video"
     },
     {
-     "q": "Pennsylvania oil region 1860s wells photograph",
+     "q": "Oil Creek Pennsylvania",
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s20_0.jpg",
+    "s20_1.mp4@1"
+   ]
   },
   {
    "mood": "tension",
    "say": "In eighteen sixty-three, Rockefeller and Clark joined a chemist named Samuel Andrews to build an oil refinery in Cleveland. But John and the Clarks argued about how fast to grow. In February eighteen sixty-five, they settled it in a strange way: an auction between the partners. The winner would take the refinery.",
    "find": [
     {
-     "q": "Cleveland oil refinery 1860s",
+     "q": "Cleveland refinery",
      "kind": "commons"
     },
     {
@@ -342,7 +385,9 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s21_1.mp4@1"
+   ]
   },
   {
    "mood": "triumph",
@@ -353,11 +398,14 @@
      "kind": "commons"
     },
     {
-     "q": "gold coins close up",
+     "q": "coins falling slow motion",
      "kind": "video"
     }
    ],
-   "shots": [],
+   "shots": [
+    "s22_0.jpg",
+    "s22_1.mp4@1"
+   ],
    "stat": {
     "value": 72500,
     "prefix": "$",
@@ -369,15 +417,18 @@
    "say": "Five years later, on the tenth of January, eighteen seventy, he and his partners formed a new company with one million dollars of capital. They called it Standard Oil. And the boy who counted pennies started counting something much smaller. Drops.",
    "find": [
     {
-     "q": "Standard Oil Company certificate 1870s",
+     "q": "Standard Oil stock certificate",
      "kind": "commons"
     },
     {
-     "q": "Standard Oil Cleveland 1870s",
+     "q": "Standard Oil Company 1870",
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s23_0.jpg",
+    "s23_1.jpg"
+   ]
   },
   {
    "card": {
@@ -395,18 +446,21 @@
      "kind": "commons"
     },
     {
-     "q": "metal welding sparks close up",
-     "kind": "video"
+     "q": "tinsmith",
+     "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s25_0.jpg",
+    "s25_1.mp4@1"
+   ]
   },
   {
    "mood": "triumph",
    "say": "They tried. Some cans leaked. With thirty-nine, they did not. One drop less, on every single can. According to his biographer, Ron Chernow, it saved two thousand five hundred dollars in the first year, and it kept saving money every year after that.",
    "find": [
     {
-     "q": "Standard Oil kerosene advertisement 19th century",
+     "q": "kerosene lamp advertisement",
      "kind": "commons"
     },
     {
@@ -414,33 +468,39 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s26_1.mp4@1"
+   ]
   },
   {
    "mood": "tension",
    "say": "Small savings, multiplied across a giant business, made Standard Oil one of the cheapest refiners in America. That is the bright side of the ledger. Now the dark side.",
    "find": [
     {
-     "q": "Standard Oil refinery 1880s photograph",
+     "q": "Standard Oil refinery",
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s27_0.png"
+   ]
   },
   {
    "mood": "tension",
    "say": "In eighteen seventy-two, in roughly six weeks, Standard Oil bought twenty-two of the twenty-six refineries in Cleveland. Many owners felt they had no real choice. Standard also made secret deals with the railroads for cheaper shipping, deals its rivals could not get.",
    "find": [
     {
-     "q": "railroad oil tank cars 19th century",
+     "q": "oil tank cars",
      "kind": "commons"
     },
     {
-     "q": "Cleveland Flats refineries 1870s",
+     "q": "Cleveland Flats",
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s28_1.jpg"
+   ]
   },
   {
    "mood": "tension",
@@ -451,7 +511,9 @@
      "kind": "commons"
     }
    ],
-   "shots": [],
+   "shots": [
+    "s29_0.jpg"
+   ],
    "stat": {
     "value": 90,
     "suffix": "%",
@@ -467,7 +529,7 @@
      "kind": "commons"
     },
     {
-     "q": "McClure's magazine 1902 cover",
+     "q": "McClure's Magazine cover",
      "kind": "commons"
     },
     {
@@ -475,22 +537,29 @@
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s30_0.jpg",
+    "s30_1.jpg",
+    "s30_2.jpg"
+   ]
   },
   {
    "mood": "triumph",
    "say": "Here is the twist. Rockefeller owned shares in all of them. As the pieces grew, so did his fortune. By around nineteen thirteen, it was estimated at about nine hundred million dollars. Some newspapers called him the first billionaire, although that figure has always been disputed.",
    "find": [
     {
-     "q": "John D. Rockefeller 1910s photograph",
+     "q": "John D. Rockefeller 1911",
      "kind": "commons"
     },
     {
-     "q": "gold coins pile",
+     "q": "gold coins pile dark",
      "kind": "video"
     }
    ],
-   "shots": [],
+   "shots": [
+    "s31_0.jpg",
+    "s31_1.mp4@1"
+   ],
    "stat": {
     "value": 900,
     "prefix": "$",
@@ -503,15 +572,18 @@
    "say": "And then he did what the ledger had trained him to do since he was sixteen. He gave. More than five hundred million dollars in his lifetime, to the University of Chicago, to medical research, and to the Rockefeller Foundation. He died in Florida on the twenty-third of May, nineteen thirty-seven, at ninety-seven years old.",
    "find": [
     {
-     "q": "University of Chicago 1890s photograph",
+     "q": "University of Chicago Cobb Hall",
      "kind": "commons"
     },
     {
-     "q": "The Casements Ormond Beach",
+     "q": "Casements Ormond",
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s32_0.jpg",
+    "s32_1.jpg"
+   ]
   },
   {
    "card": {
@@ -525,11 +597,13 @@
    "say": "So what can a little paper book from eighteen fifty-five teach us today? This is not financial advice. It is just a lesson from history.",
    "find": [
     {
-     "q": "old book pages turning",
+     "q": "antique book pages",
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s34_0.mp4@1"
+   ]
   },
   {
    "mood": "reflective",
@@ -540,7 +614,9 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s35_0.mp4@1"
+   ]
   },
   {
    "mood": "reflective",
@@ -551,18 +627,21 @@
      "kind": "video"
     },
     {
-     "q": "hourglass sand time",
+     "q": "hourglass dark",
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s36_0.mp4@1",
+    "s36_1.mp4@1"
+   ]
   },
   {
    "mood": "lament",
    "say": "Third, and this is what the ledger could not teach him: counting tells you how much, not whether it is right. The same habit that saved pennies also helped him squeeze his rivals until a court stepped in. Numbers are a tool. You still decide what kind of person uses them.",
    "find": [
     {
-     "q": "Puck cartoon Rockefeller 1900s",
+     "q": "Rockefeller Puck",
      "kind": "commons"
     },
     {
@@ -570,14 +649,17 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s37_0.jpg",
+    "s37_1.mp4@1"
+   ]
   },
   {
    "mood": "reflective",
    "say": "If you want to try it, it costs nothing. For one month, write down every single thing you spend. You might be surprised, as he was, by what your own Ledger A says about you.",
    "find": [
     {
-     "q": "account book ledger 19th century handwriting",
+     "q": "account book 19th century",
      "kind": "commons"
     }
    ],
@@ -596,7 +678,10 @@
      "kind": "commons"
     }
    ],
-   "shots": []
+   "shots": [
+    "s39_0.jpg",
+    "s39_1.jpg"
+   ]
   }
  ],
  "thumbs_plan": [
