@@ -12,12 +12,12 @@
  "next_music_index": 0,
  "posts_this_month": {
   "month": "2026-11",
-  "count": 3
+  "count": 4
  },
  "vidiq_credits_used": {
   "month": "2026-11",
-  "count": 15,
-  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov"
+  "count": 20,
+  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov; 5 used 25 Nov (keyword_research south sea bubble)"
  },
  "videos": [
   {
@@ -73,6 +73,22 @@
     "lament-of-the-ancients-asher-fulero.mp3",
     "was-will-die-einsame-thrane-half-cool-moregoodthanbad.mp3",
     "didos-lament-from-dido-and-aeneas-henry-purcell-golden-cut-reborn.mp3"
+   ]
+  },
+  {
+   "id": "002s-rockefeller-short",
+   "format": "short",
+   "related": "002-rockefeller-ledger",
+   "voice": "am_michael",
+   "length_s": 27.1,
+   "slot_pkt": "2026-11-26T16:00",
+   "slot": "A",
+   "metricool_post_id": 440848302,
+   "cloudinary": "ledger-of-empires/002s-rockefeller-short",
+   "thumb": "thumb_1 HE COUNTED EVERY CENT",
+   "status": "scheduled",
+   "music": [
+    "growth-decay-density-time.mp3"
    ]
   }
  ]

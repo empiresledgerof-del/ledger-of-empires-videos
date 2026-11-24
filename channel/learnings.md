@@ -1,5 +1,11 @@
 # Learnings (newest first)
 
+## 2026-11-25 - Wed run
+- Metricool (lags 1-2 days) still shows only the 001s Short: 1,083 views on 20 Nov, +7 and +4 the next days; no subscribers yet. 001 long and 002 long (live 25 Nov 00:30) have no data yet.
+- vidIQ keyword check for the next long video (South Sea Bubble): "south sea bubble" ~28k searches/month, competition 80 (hard); "isaac newton south sea bubble" ~3.7k/month, competition 31, best overall score (59). Lead the title with Isaac Newton + South Sea Bubble.
+- Short 002s reused the long video's stock from the robot releases (fresh clone has no build/): download all three stock-<id>, -b, -c releases, later rounds win. Locally cropped files (…c.jpg) are not in releases: recrop.
+- Shorts keep the voice of their long video (voice rotation advances only on long videos).
+
 ## 2026-11-23 - Mon run
 - First real numbers (vidIQ, YouTube Studio): Short 001s = 1,083 views in ~2 days, 258 engaged views, avg 13 s of 28 s (47.8%), 6 likes, 0 subs. Long 001 went live 22 Nov 20:00, no data yet (1-2 day lag). One video is not a pattern.
 - Stock robot: long multi-word Commons queries ("Cleveland harbor 1850s ships lithograph") return nothing or random files, because Commons search needs every word in the file page. Use 2-3 words that would be in a file TITLE (person + year, place + object, artist + work): "John D. Rockefeller 1911", "Massys moneylender wife", "Titusville oil", "Ohio banknote". Pixabay "coins" clips often show bitcoin/crypto symbols: check every coin clip.
