@@ -1,0 +1,31 @@
+{
+ "id": "003s-carnegie-short-b",
+ "orient": "portrait",
+ "items": [
+  {
+   "name": "s1_0",
+   "q": "Castle Garden emigrants",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_2",
+   "q": "vintage pocket watch",
+   "kind": "video"
+  },
+  {
+   "name": "s2_0",
+   "q": "Bessemer converter engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s2_1",
+   "q": "fire embers",
+   "kind": "video"
+  },
+  {
+   "name": "s3_1",
+   "q": "Carnegie Library Pittsburgh",
+   "kind": "commons"
+  }
+ ]
+}

@@ -1,21 +1,131 @@
 {
- "id": "003s-carnegie-short", "format": "short", "series": "mini-story", "pillar": "great-fortunes",
+ "id": "003s-carnegie-short",
+ "format": "short",
+ "series": "mini-story",
+ "pillar": "great-fortunes",
  "title": "Carnegie Said Dying Rich Was a Disgrace 📚",
- "voice": "bm_lewis", "speed": 1.0,
+ "voice": "bm_lewis",
+ "speed": 1.0,
  "scenes": [
-  {"mood": "reflective", "hook": "DYING RICH IS A DISGRACE?", "say": "One of history's richest men believed dying rich was a disgrace.",
-   "find": [{"q": "Andrew Carnegie portrait", "kind": "commons"}, {"q": "Andrew Carnegie 1913", "kind": "commons"}]},
-  {"mood": "reflective", "say": "Andrew Carnegie came to America in eighteen forty-eight. His first job, in a cotton mill, paid one dollar and twenty cents a week.",
-   "find": [{"q": "emigrant ship engraving", "kind": "commons"}, {"q": "cotton mill spinning", "kind": "commons"}, {"q": "old coins table", "kind": "video"}]},
-  {"mood": "triumph", "say": "In nineteen oh one, he sold his steel company for four hundred and eighty million dollars.",
-   "find": [{"q": "Edgar Thomson Steel Works", "kind": "commons"}, {"q": "molten steel", "kind": "video"}]},
-  {"mood": "triumph", "say": "Then he gave almost all of it away. Over two thousand five hundred libraries.",
-   "find": [{"q": "Carnegie Library postcard", "kind": "commons"}, {"q": "old books library", "kind": "video"}]},
-  {"mood": "reflective", "say": "His rule? The man who dies thus rich dies disgraced. So what is your money for?",
-   "find": [{"q": "Andrew Carnegie library", "kind": "commons"}, {"q": "candle flame", "kind": "video"}]}
+  {
+   "mood": "reflective",
+   "hook": "DYING RICH IS A DISGRACE?",
+   "say": "One of history's richest men believed dying rich was a disgrace.",
+   "find": [
+    {
+     "q": "Andrew Carnegie portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "Andrew Carnegie 1913",
+     "kind": "commons"
+    }
+   ],
+   "shots": [
+    "s0_0.jpg",
+    "s0_1.jpg"
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Andrew Carnegie came to America in eighteen forty-eight. His first job, in a cotton mill, paid one dollar and twenty cents a week.",
+   "find": [
+    {
+     "q": "Castle Garden emigrants",
+     "kind": "commons"
+    },
+    {
+     "q": "cotton mill spinning",
+     "kind": "commons"
+    },
+    {
+     "q": "vintage pocket watch",
+     "kind": "video"
+    }
+   ],
+   "shots": [
+    "s1_0.jpg",
+    "s1_1.jpg",
+    "s1_2.mp4@1"
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "In nineteen oh one, he sold his steel company for four hundred and eighty million dollars.",
+   "find": [
+    {
+     "q": "Bessemer converter engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "fire embers",
+     "kind": "video"
+    }
+   ],
+   "shots": [
+    "s2_0.jpg",
+    "s2_1.mp4@1"
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "Then he gave almost all of it away. Over two thousand five hundred libraries.",
+   "find": [
+    {
+     "q": "Carnegie Library postcard",
+     "kind": "commons"
+    },
+    {
+     "q": "Carnegie Library Pittsburgh",
+     "kind": "commons"
+    }
+   ],
+   "shots": [
+    "s3_0.jpg",
+    "s3_1.mp4@1"
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "His rule? The man who dies thus rich dies disgraced. So what is your money for?",
+   "find": [
+    {
+     "q": "Andrew Carnegie library",
+     "kind": "commons"
+    },
+    {
+     "q": "candle flame",
+     "kind": "video"
+    }
+   ],
+   "shots": [
+    "s4_0.png",
+    "s4_1.mp4@1"
+   ]
+  }
  ],
- "thumbs": [{"image": "s0_0.jpg", "lines": ["DYING RICH", "A DISGRACE?"], "accent": 1}],
- "tags": ["andrew carnegie", "carnegie", "gospel of wealth", "philanthropy", "great fortunes", "financial history", "history", "money lessons", "gilded age", "shorts"],
+ "thumbs": [
+  {
+   "image": "s0_0.jpg",
+   "lines": [
+    "DYING RICH",
+    "A DISGRACE?"
+   ],
+   "accent": 1
+  }
+ ],
+ "tags": [
+  "andrew carnegie",
+  "carnegie",
+  "gospel of wealth",
+  "philanthropy",
+  "great fortunes",
+  "financial history",
+  "history",
+  "money lessons",
+  "gilded age",
+  "shorts"
+ ],
  "first_comment": "If you had Carnegie's fortune, would you give most of it away? 👇",
  "facts_checked": {
   "came to America in 1848; bobbin boy in a cotton mill at $1.20 a week": "History.com (Andrew Carnegie); Carnegie Corporation of New York (Andrew Carnegie's Story)",
@@ -23,6 +133,11 @@
   "gave away about $350 million, almost all of it ($30 million left at death went to the foundation)": "Carnegie Corporation; History.com ('the bulk of his wealth'); NPR ($350 million). 90% figure NOT used: not confirmed",
   "more than 2,500 libraries (2,509)": "Carnegie Corporation; History.com",
   "quote 'The man who dies thus rich dies disgraced' (The Gospel of Wealth, 1889)": "Carnegie Corporation (Gospel of Wealth page); History.com",
-  "among history's richest men": "History.com; Carnegie Corporation"},
- "sources": ["Carnegie Corporation of New York: Andrew Carnegie's Story; The Gospel of Wealth", "History.com: Andrew Carnegie", "NPR (2013): How Andrew Carnegie Turned His Fortune Into A Library Legacy"]
+  "among history's richest men": "History.com; Carnegie Corporation"
+ },
+ "sources": [
+  "Carnegie Corporation of New York: Andrew Carnegie's Story; The Gospel of Wealth",
+  "History.com: Andrew Carnegie",
+  "NPR (2013): How Andrew Carnegie Turned His Fortune Into A Library Legacy"
+ ]
 }
