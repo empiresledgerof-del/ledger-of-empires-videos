@@ -12,12 +12,12 @@
  "next_music_index": 0,
  "posts_this_month": {
   "month": "2026-11",
-  "count": 4
+  "count": 5
  },
  "vidiq_credits_used": {
   "month": "2026-11",
-  "count": 20,
-  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov; 5 used 25 Nov (keyword_research south sea bubble)"
+  "count": 25,
+  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov; 5 used 25 Nov (keyword_research south sea bubble); 5 used 26 Nov (channel_analytics by video); balance 130 before that call"
  },
  "videos": [
   {
@@ -89,6 +89,26 @@
    "status": "scheduled",
    "music": [
     "growth-decay-density-time.mp3"
+   ]
+  },
+  {
+   "id": "003s-carnegie-short",
+   "format": "short",
+   "series": "mini-story",
+   "pillar": "great-fortunes",
+   "related": null,
+   "voice": "bm_lewis",
+   "length_s": 28.3,
+   "slot_pkt": "2026-11-28T02:00",
+   "slot": "B",
+   "metricool_post_id": 442281628,
+   "cloudinary": "ledger-of-empires/003s-carnegie-short",
+   "thumb": "thumb_1 DYING RICH A DISGRACE?",
+   "status": "scheduled",
+   "music": [
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "growth-decay-density-time.mp3",
+    "was-will-die-einsame-thrane-half-cool-moregoodthanbad.mp3"
    ]
   }
  ]

@@ -1,5 +1,11 @@
 # Learnings (newest first)
 
+## 2026-11-26 - Thu run
+- vidIQ (YouTube real numbers, 29 Oct-25 Nov): Short 001s = 1,091 views, 263 engaged, 13 s avg (48%), 6 likes. Long 001 Tulip Mania = only 3 views in 3 days (avg 2 s). 002 long (live 25 Nov) not in data yet. 0 subscribers so far. The Short got ~360x the views of the long video: the new channel's reach is coming almost only from the Shorts feed. One long video is not a pattern; watch 002 before changing anything, but Shorts must keep pointing to the long videos (Related video link).
+- Made the first standalone mini-story Short (Carnegie, same pillar, not a trailer) so Thu/Fri alternate trailer / mini-story. Compare it with the trailers after 7 days.
+- Fact check: the popular "Carnegie gave away 90%" is not on carnegie.org/History.com/NPR; used "about $350 million, almost all of it" ($30M left at death, Carnegie Corporation). US library count differs (1,679 vs 1,689): used only the world total (2,509 / "over 2,500").
+- Commons: Harper's Weekly pages come as whole pages with text columns; crop the engraving locally (…c.jpg) for portrait Shorts. Pixabay "pocket watch" returned an AI-looking library clip: dropped.
+
 ## 2026-11-25 - Wed run
 - Metricool (lags 1-2 days) still shows only the 001s Short: 1,083 views on 20 Nov, +7 and +4 the next days; no subscribers yet. 001 long and 002 long (live 25 Nov 00:30) have no data yet.
 - vidIQ keyword check for the next long video (South Sea Bubble): "south sea bubble" ~28k searches/month, competition 80 (hard); "isaac newton south sea bubble" ~3.7k/month, competition 31, best overall score (59). Lead the title with Isaac Newton + South Sea Bubble.
