@@ -1,0 +1,61 @@
+{
+ "id": "003s-carnegie-short",
+ "orient": "portrait",
+ "items": [
+  {
+   "name": "s0_0",
+   "q": "Andrew Carnegie portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s0_1",
+   "q": "Andrew Carnegie 1913",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_0",
+   "q": "emigrant ship engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_1",
+   "q": "cotton mill spinning",
+   "kind": "commons"
+  },
+  {
+   "name": "s1_2",
+   "q": "old coins table",
+   "kind": "video"
+  },
+  {
+   "name": "s2_0",
+   "q": "Edgar Thomson Steel Works",
+   "kind": "commons"
+  },
+  {
+   "name": "s2_1",
+   "q": "molten steel",
+   "kind": "video"
+  },
+  {
+   "name": "s3_0",
+   "q": "Carnegie Library postcard",
+   "kind": "commons"
+  },
+  {
+   "name": "s3_1",
+   "q": "old books library",
+   "kind": "video"
+  },
+  {
+   "name": "s4_0",
+   "q": "Andrew Carnegie library",
+   "kind": "commons"
+  },
+  {
+   "name": "s4_1",
+   "q": "candle flame",
+   "kind": "video"
+  }
+ ]
+}
