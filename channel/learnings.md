@@ -1,5 +1,11 @@
 # Learnings (newest first)
 
+## 2026-11-27 - Fri run
+- Metricool (lags 1-2 days) unchanged: only the 001s Short has views (1,083 on 20 Nov, then +7, +4, +3); 0 subscribers. No new vidIQ analytics today (Fri = topic check).
+- vidIQ keyword check for video 4: "mansa musa" ~156k searches/month, competition 51, overall 66 (top market Pakistan 23%, then India/US 11%); "mansa musa richest man" ~5.5k, comp 39; "mansa musa documentary" ~6.9k, comp 36, +75% growing. Lead the title with "Mansa Musa"; "richest man" is the proven angle.
+- Fri Short = second trailer, but for 001 Tulip Mania (3 views) rather than 002, to break three great-fortunes Shorts in a row and send Shorts viewers to the weakest long video. Angle: a paradox claim ("the priciest tulips were sick", broken-tulip virus). Compare its views with 001s (number shock) after 7 days.
+- Reusing a long video's stock for a Short: copy the chosen files into the Short's own stock folder under new names (r_*.jpg) instead of symlinking, so new robot items (s<scene>_<n>) never clash with the long video's names.
+
 ## 2026-11-26 - Thu run
 - vidIQ (YouTube real numbers, 29 Oct-25 Nov): Short 001s = 1,091 views, 263 engaged, 13 s avg (48%), 6 likes. Long 001 Tulip Mania = only 3 views in 3 days (avg 2 s). 002 long (live 25 Nov) not in data yet. 0 subscribers so far. The Short got ~360x the views of the long video: the new channel's reach is coming almost only from the Shorts feed. One long video is not a pattern; watch 002 before changing anything, but Shorts must keep pointing to the long videos (Related video link).
 - Made the first standalone mini-story Short (Carnegie, same pillar, not a trailer) so Thu/Fri alternate trailer / mini-story. Compare it with the trailers after 7 days.
