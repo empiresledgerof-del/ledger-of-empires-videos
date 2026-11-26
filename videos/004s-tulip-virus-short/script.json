@@ -52,13 +52,17 @@
      "q": "aphids",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s4_0.jpg",
+    "s4_1.mp4@1"
    ]
   },
   {
    "mood": "reflective",
    "say": "People paid fortunes for a disease. What do we overpay for today, just because it's rare?",
    "shots": [
-    "r_allegory.jpg#pan=right",
+    "r_marrel.jpg#pan=left",
     "r_semper.jpg#pan=out"
    ]
   }
