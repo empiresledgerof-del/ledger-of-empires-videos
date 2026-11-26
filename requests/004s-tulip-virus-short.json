@@ -1,0 +1,16 @@
+{
+ "id": "004s-tulip-virus-short",
+ "orient": "portrait",
+ "items": [
+  {
+   "name": "s4_0",
+   "q": "aphids",
+   "kind": "photo"
+  },
+  {
+   "name": "s4_1",
+   "q": "aphids",
+   "kind": "video"
+  }
+ ]
+}

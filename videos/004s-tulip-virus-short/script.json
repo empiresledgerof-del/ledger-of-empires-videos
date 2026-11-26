@@ -1,0 +1,103 @@
+{
+ "id": "004s-tulip-virus-short",
+ "format": "short",
+ "series": "trailer",
+ "pillar": "bubbles-crashes",
+ "related_long": "001-tulip-mania",
+ "title": "Tulip Mania's Priciest Flowers Were Sick 🌷",
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "mood": "mystery",
+   "hook": "THE PRICIEST TULIPS WERE SICK",
+   "say": "The most expensive tulips in history were sick.",
+   "shots": [
+    "r_semper.jpg#pan=in"
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "In the sixteen thirties, the Dutch paid fortunes for broken tulips, streaked with flames of colour.",
+   "shots": [
+    "r_marrel.jpg#pan=right",
+    "r_brueghel.jpg#pan=left"
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "Nobody could grow one on purpose. A plain bulb might break into stripes, or not.",
+   "shots": [
+    "r_redtulips.mp4@1",
+    "r_striped.jpg#pan=in"
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "And broken bulbs were weak. They made fewer baby bulbs, so supply stayed tiny.",
+   "shots": [
+    "r_sixbook.jpg#pan=up",
+    "r_hourglass.mp4@1"
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "In the nineteen twenties, scientists found the cause: a virus, spread by tiny aphids.",
+   "find": [
+    {
+     "q": "aphids",
+     "kind": "photo"
+    },
+    {
+     "q": "aphids",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "People paid fortunes for a disease. What do we overpay for today, just because it's rare?",
+   "shots": [
+    "r_allegory.jpg#pan=right",
+    "r_semper.jpg#pan=out"
+   ]
+  }
+ ],
+ "thumbs": [
+  {
+   "image": "r_semper.jpg",
+   "lines": [
+    "THE PRICIEST",
+    "TULIPS WERE",
+    "SICK"
+   ],
+   "accent": 2
+  }
+ ],
+ "tags": [
+  "tulip mania",
+  "broken tulips",
+  "semper augustus",
+  "tulip breaking virus",
+  "dutch golden age",
+  "financial history",
+  "economic bubble",
+  "history",
+  "money lessons",
+  "shorts"
+ ],
+ "first_comment": "What do people overpay for today just because it's rare? 🌷👇",
+ "facts_checked": {
+  "the most prized 1630s tulips were 'broken' (flamed/striped) tulips such as Semper Augustus": "Britannica ('Tulip Mania: How a Plant Virus Fueled a Speculative Frenzy'); Encyclopaedia Romana (University of Chicago, Broken Tulips); Country Life",
+  "growers could not produce the stripes on purpose; a plain bulb might or might not break": "Encyclopaedia Romana; John Innes Centre ('Why do tulips break?')",
+  "broken bulbs were weaker and produced fewer offsets, so supply stayed small": "Wikipedia (Tulip breaking virus); Encyclopaedia Romana; Britannica",
+  "cause found in the 1920s: a virus spread by aphids (Dorothy Cayley, John Innes, 1928)": "John Innes Centre; Wikipedia (Dorothy Cayley; Tulip breaking virus); Amsterdam Tulip Museum (in 001 fact check)",
+  "'fortunes' (no number used here; the 5,200-guilder Alkmaar sale is verified in 001)": "Encyclopaedia Romana; Christie's lot note"
+ },
+ "sources": [
+  "Britannica: Tulip Mania: How a Plant Virus Fueled a Speculative Frenzy",
+  "John Innes Centre: Why do tulips break?",
+  "Encyclopaedia Romana (University of Chicago): Broken Tulips; Semper Augustus",
+  "Anne Goldgar, Tulipmania (2007)"
+ ]
+}
