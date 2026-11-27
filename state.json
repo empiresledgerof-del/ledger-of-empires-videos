@@ -7,17 +7,17 @@
   "am_michael",
   "bf_emma"
  ],
- "next_voice_index": 2,
+ "next_voice_index": 0,
  "music_rotation": [],
  "next_music_index": 0,
  "posts_this_month": {
   "month": "2026-11",
-  "count": 6
+  "count": 7
  },
  "vidiq_credits_used": {
   "month": "2026-11",
-  "count": 30,
-  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov; 5 used 25 Nov (keyword_research south sea bubble); 5 used 26 Nov (channel_analytics by video); balance 130 before that call; 5 used 27 Nov (keyword_research mansa musa), balance 125 before that call"
+  "count": 35,
+  "note": "balance showed 140 before this run (10 used during setup); 5 used 23 Nov; 5 used 25 Nov (keyword_research south sea bubble); 5 used 26 Nov (channel_analytics by video); balance 130 before that call; 5 used 27 Nov (keyword_research mansa musa), balance 125 before that call; 5 used 28 Nov (channel_analytics by video), balance 120 before that call"
  },
  "videos": [
   {
@@ -128,6 +128,28 @@
    "music": [
     "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3",
     "growth-decay-density-time.mp3"
+   ]
+  },
+  {
+   "id": "003-south-sea-newton",
+   "format": "long",
+   "series": "The Rise and Fall",
+   "pillar": "bubbles-crashes",
+   "voice": "bf_emma",
+   "speed": 0.9,
+   "length_s": 503.3,
+   "slot_pkt": "2026-11-29T20:00",
+   "slot": "A",
+   "metricool_post_id": 444878319,
+   "cloudinary": "ledger-of-empires/003-south-sea-newton",
+   "thumb": "thumb_1 EVEN NEWTON",
+   "status": "scheduled",
+   "music": [
+    "growth-decay-density-time.mp3",
+    "lament-of-the-ancients-asher-fulero.mp3",
+    "didos-lament-from-dido-and-aeneas-henry-purcell-golden-cut-reborn.mp3",
+    "warun-wilst-c-schumann-half-cool-moregoodthanbad.mp3",
+    "was-will-die-einsame-thrane-half-cool-moregoodthanbad.mp3"
    ]
   }
  ]
