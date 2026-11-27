@@ -1,5 +1,12 @@
 # Learnings (newest first)
 
+## 2026-11-28 - Sat run (week 2 report)
+- vidIQ (YouTube real numbers, 31 Oct-27 Nov): 001s Short 1,092 views (264 engaged, 13 s avg = 48%, 6 likes); 001 long 3 views; a third video (JDiMMcE8Gno, most likely 002 long, live 25 Nov) 2 views. 002s/003s not in the data yet (2-day lag). Still 0 subscribers. Metricool: no new YouTube numbers after 24 Nov.
+- Week 2 vs week 1: ~14 new views in total vs ~1,090 in week 1. Two long videos together have 5 views: long videos get almost no impressions on a 0-subscriber channel. The Shorts-first test is the right call; judge the 4 Shorts of week 3 by "viewed vs swiped" before changing hooks.
+- Voice speed: bf_emma reads ~10% faster than bm_lewis/am_michael (1,500 words = 476 s even at speed 0.9). For bf_emma use speed 0.9 and 1,500+ words to reach 8.5 min.
+- Fact check: Newton's South Sea numbers are badly mixed up online. Profit from his April 1720 sale is given as £7,000 (Zweig/Smithsonian) or ~£20,000 (Odlyzko): no number used. The "lost £20,000" story vs Odlyzko's ~£10,000 estimate: told as legend vs record. The "madness of people" quote is only "attributed": told as legend.
+- Commons: the robot hit HTTP 429 (Wikimedia rate limit) after ~45 items in one request; retry rounds with fewer items worked. Keep first requests under ~40 Commons items. A portrait inside a gilded frame photo (Walpole) can be cropped locally (s29_0w.jpg).
+
 ## 2026-11-27 - Fri run
 - Metricool (lags 1-2 days) unchanged: only the 001s Short has views (1,083 on 20 Nov, then +7, +4, +3); 0 subscribers. No new vidIQ analytics today (Fri = topic check).
 - vidIQ keyword check for video 4: "mansa musa" ~156k searches/month, competition 51, overall 66 (top market Pakistan 23%, then India/US 11%); "mansa musa richest man" ~5.5k, comp 39; "mansa musa documentary" ~6.9k, comp 36, +75% growing. Lead the title with "Mansa Musa"; "richest man" is the proven angle.
