@@ -1,0 +1,625 @@
+{
+ "id": "003-south-sea-newton",
+ "format": "long",
+ "series": "The Rise and Fall",
+ "pillar": "bubbles-crashes",
+ "status": "draft",
+ "title": "South Sea Bubble: How Isaac Newton Lost a Fortune",
+ "title_options": [
+  "South Sea Bubble: How Isaac Newton Lost a Fortune",
+  "Isaac Newton Got Out Early. Then He Went Back In.",
+  "Even Isaac Newton Lost Money in This Bubble",
+  "Isaac Newton's South Sea Bubble Mistake",
+  "The Bubble That Fooled Isaac Newton",
+  "South Sea Bubble: Why Geniuses Lose Money Too",
+  "Isaac Newton vs the South Sea Bubble",
+  "South Sea Bubble 1720: £128 to £1,000 to £124",
+  "Isaac Newton Sold, Then Bought Back at the Top",
+  "South Sea Bubble: Newton's Costly Second Bet",
+  "How the South Sea Bubble Beat Isaac Newton"
+ ],
+ "voice": "bf_emma",
+ "speed": 0.9,
+ "cold_open_title": "Even Newton",
+ "thumbs_plan": [
+  "Newton portrait (Kneller) left, text EVEN / NEWTON (gold NEWTON) right",
+  "Hogarth South Sea Scheme print, text HE WENT / BACK IN",
+  "Newton portrait, text SOLD... THEN / BOUGHT BACK"
+ ],
+ "description_intro": "The South Sea Bubble of 1720 fooled even Isaac Newton. He sold his shares early at a profit, then bought back near the top and lost around a third of his fortune. This is the true story of how a company built on government debt became a mania, how it crashed, and the money lesson it still teaches.",
+ "sources": [
+  "Andrew Odlyzko, 'Newton's financial misadventures in the South Sea Bubble', Notes and Records of the Royal Society (2019) and Physics Today (July 2020)",
+  "The National Archives (UK) blog: The South Sea Bubble of 1720",
+  "Encyclopaedia Britannica: South Sea Bubble",
+  "EBSCO Research Starters: Collapse of the South Sea Bubble",
+  "Helen Paul, 'The South Sea Bubble', Gresham College lecture (2021)",
+  "Yale School of Management: Looking back 300 years at the South Sea Bubble",
+  "Smithsonian Magazine: The market crash that cost Newton a fortune (2017)",
+  "The London Gazette (1721) proclamations on Robert Knight"
+ ],
+ "tags": [
+  "south sea bubble",
+  "isaac newton",
+  "isaac newton south sea bubble",
+  "south sea company",
+  "1720",
+  "financial history",
+  "stock market bubble",
+  "history of money",
+  "money lessons",
+  "fomo investing",
+  "economic history",
+  "rise and fall"
+ ],
+ "first_comment": "If you had sold early like Newton and watched the price keep rising, would you have gone back in? 🤔👇",
+ "facts_checked": {
+  "South Sea Company founded 1711, Robert Harley (Lord Treasurer) a founder, to take on government debt": "National Archives; Britannica; EBSCO; Gresham (Paul)",
+  "monopoly of trade with Spanish America, mainly slave trade (asiento, 1713), limited by Spain; trade small": "National Archives; Britannica; EBSCO",
+  "spring (April) 1720 Parliament accepted the debt-conversion scheme": "EBSCO; Odlyzko (Act 7 April); Britannica",
+  "instalment subscriptions and loans to buyers": "EBSCO; National Archives; Yale SOM",
+  "price ~£128 Jan 1720": "Britannica (128 1/2); EBSCO; Smithsonian; Odlyzko (~130)",
+  "passed £1,000 in summer 1720": "National Archives (~£1,050); EBSCO (£1,000 July); Britannica (>1,000 Aug); Smithsonian",
+  "King bought stock": "National Archives; (George I) Britannica print entry context",
+  "other bubble companies (hair, silver from lead, perpetual motion wheel)": "EBSCO; Britannica (many speculative companies)",
+  "Newton Master of the Mint 1699-1727; worth a little over £30,000 before": "Odlyzko (Notes & Records; Physics Today); Britannica",
+  "Newton sold nearly all in April 1720 at a large profit (amount disputed: £7,000 vs ~£20,000 -> no number given)": "Odlyzko; Smithsonian/Zweig",
+  "rebought mid-June near peak, kept buying through August; nearly all wealth in South Sea by end 1720": "Odlyzko (both papers)",
+  "Thomas Guy sold in 1720 while high; profit funded Guy's Hospital (begun 1721)": "National Archives; EBSCO; Wikipedia; Gresham",
+  "collapse September 1720; under £200 by end of Sept (135/175/190 across sources)": "EBSCO; Smithsonian; National Archives; Odlyzko",
+  "£124 December 1720": "National Archives; Britannica",
+  "ministers took bribes; Aislabie (Chancellor) to the Tower": "Britannica; EBSCO; National Archives; Gresham",
+  "cashier Robert Knight fled abroad": "Gresham (Paul); London Gazette 1721 proclamations",
+  "Walpole opposed scheme, came to power, usually called first PM": "Britannica; EBSCO; National Archives",
+  "loss legend £20,000; Odlyzko estimate ~£10,000 (about a third)": "Smithsonian (legend); Odlyzko (estimate)",
+  "1724 letter 'lost very much by the South Sea company'": "Odlyzko (Notes & Records; Physics Today) citing Christie's 2005 letter",
+  "'madness of people' line only attributed, no solid proof": "Smithsonian ('attributed'); Physics Today ('allegedly'); Zweig ('often attributed')",
+  "Mansa Musa teaser (gold value fell in Cairo) framed as 'people said'": "content_plan; to verify fully in video 4",
+  "CUT (one source or conflicting): exact Newton profit, Bubble Act date, Royal Society £600 loss, Aislabie £20,000 stock, asiento price, Green Book, 'undertaking of great advantage' company": "conflict or single source"
+ },
+ "scenes": [
+  {
+   "mood": "tension",
+   "say": "London, the summer of seventeen twenty. The greatest scientist alive, Sir Isaac Newton, is about to make a terrible decision. Months earlier, he sold his shares and walked away with a large profit. Now he is buying them back, at prices close to the highest they will ever reach.",
+   "find": [
+    {
+     "q": "Isaac Newton Kneller 1702",
+     "kind": "commons"
+    },
+    {
+     "q": "Isaac Newton portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "candle flame dark",
+     "kind": "video"
+    }
+   ],
+   "hook": "EVEN NEWTON"
+  },
+  {
+   "mood": "tension",
+   "say": "By the end of the year, the bubble had burst, and almost his entire fortune was tied up in that one company.",
+   "find": [
+    {
+     "q": "gold coins",
+     "kind": "video"
+    },
+    {
+     "q": "hourglass sand",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "So why did the man who explained gravity go back in? How much did he really lose? And did he ever say the famous line people still quote about it? Let's go back to the South Sea Bubble.",
+   "find": [
+    {
+     "q": "South Sea Scheme Hogarth",
+     "kind": "commons"
+    },
+    {
+     "q": "old book pages turning",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter One",
+    "title": "A Company Built on Debt"
+   },
+   "mood": "mystery"
+  },
+  {
+   "mood": "mystery",
+   "say": "The story begins with a problem every government knows: debt. In the early seventeen hundreds, Britain had borrowed heavily to pay for its wars. In seventeen eleven, a new company was founded to take over part of that debt. Its main founder was Robert Harley, the Lord Treasurer, the head of the government's money.",
+   "find": [
+    {
+     "q": "Robert Harley Earl of Oxford",
+     "kind": "commons"
+    },
+    {
+     "q": "Queen Anne portrait",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "The idea sounded clever. People who were owed money by the government could swap what they held for shares in the new company. The government paid the company interest. And in return, the company got a promise of riches: the right to trade with Spain's colonies in South America. That is why it was called the South Sea Company.",
+   "find": [
+    {
+     "q": "South Sea House London",
+     "kind": "commons"
+    },
+    {
+     "q": "Spanish galleon painting",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "But there was a dark side, and a weak one. Much of that trade was the trade in enslaved African people, and even that was limited by Spain. The great South American riches never really came. On paper, it was a trading company. In practice, it was a company that held government debt.",
+   "find": [
+    {
+     "q": "map South America 1700",
+     "kind": "commons"
+    },
+    {
+     "q": "sea waves dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "That should have been the end of the excitement. Instead, in seventeen twenty, it became the beginning.",
+   "find": [
+    {
+     "q": "quill pen writing old paper",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter Two",
+    "title": "The Summer Everyone Got Rich"
+   },
+   "mood": "tension"
+  },
+  {
+   "mood": "tension",
+   "say": "In the spring of seventeen twenty, Parliament accepted a much bigger plan. The South Sea Company would take on a huge part of the national debt, in exchange for new shares. The more the share price rose, the better the deal looked for the company. So the company did everything it could to make the price rise.",
+   "find": [
+    {
+     "q": "Houses of Parliament 18th century engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "Exchange Alley London",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "It sold new shares in instalments, so you only paid part of the price at first. And it lent people money to buy its own shares. Think about that. The company was lending you the money to push up its own price.",
+   "find": [
+    {
+     "q": "South Sea Bubble playing cards 1720",
+     "kind": "commons"
+    },
+    {
+     "q": "coins counting",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "At the start of seventeen twenty, one share cost about one hundred and twenty-eight pounds.",
+   "find": [
+    {
+     "q": "South Sea Bubble 1720 print",
+     "kind": "commons"
+    }
+   ],
+   "stat": {
+    "value": 128,
+    "prefix": "£",
+    "suffix": "",
+    "label": "one South Sea share, January 1720",
+    "decimals": 0
+   }
+  },
+  {
+   "mood": "triumph",
+   "say": "By the summer, it had passed one thousand pounds. Lords, merchants, shopkeepers and servants crowded into Exchange Alley in the City of London to buy. Even King George the First owned stock.",
+   "find": [
+    {
+     "q": "King George I portrait Kneller",
+     "kind": "commons"
+    },
+    {
+     "q": "Change Alley 1720",
+     "kind": "commons"
+    }
+   ],
+   "stat": {
+    "value": 1000,
+    "prefix": "£",
+    "suffix": "+",
+    "label": "the same share, summer 1720",
+    "decimals": 0
+   }
+  },
+  {
+   "mood": "tension",
+   "say": "Imagine being there. Your neighbour bought in spring and has already doubled his money. Your cousin borrowed to buy, and now he is talking about a new carriage. Every coffee house is full of the same question: how high can it go? Nobody wants to be the only fool who stayed out.",
+   "find": [
+    {
+     "q": "London coffee house 18th century",
+     "kind": "commons"
+    },
+    {
+     "q": "coins counting",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "And it was not only the South Sea Company. Dozens of new companies appeared, promising almost anything: trading in hair, getting silver out of lead, even a wheel that would turn forever. Most of them had no real business at all.",
+   "find": [
+    {
+     "q": "Het groote tafereel der dwaasheid",
+     "kind": "commons"
+    },
+    {
+     "q": "Bubble 1720 satire print",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "Isaac Newton watched all of this from a very special position.",
+   "find": [
+    {
+     "q": "Royal Mint Tower of London",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter Three",
+    "title": "The Genius Goes Back In"
+   },
+   "mood": "mystery"
+  },
+  {
+   "mood": "reflective",
+   "say": "Newton was not just a scientist. Since sixteen ninety-nine, he had been Master of the Royal Mint, in charge of Britain's coins. He earned well, he invested carefully, and before the bubble he was worth a little over thirty thousand pounds. In today's money, that is a rich man.",
+   "find": [
+    {
+     "q": "Isaac Newton Thornhill",
+     "kind": "commons"
+    },
+    {
+     "q": "old coins close up",
+     "kind": "video"
+    }
+   ],
+   "stat": {
+    "value": 30000,
+    "prefix": "£",
+    "suffix": "",
+    "label": "Newton's fortune before the bubble (estimate)",
+    "decimals": 0
+   }
+  },
+  {
+   "mood": "reflective",
+   "say": "Early in the mania, he seems to have decided it would end badly. In April seventeen twenty, within about a week, he sold almost all of his South Sea shares, at a large profit. A careful, rational decision. If the story ended there, we would call him a genius of money too.",
+   "find": [
+    {
+     "q": "Newton Principia title page",
+     "kind": "commons"
+    },
+    {
+     "q": "quill pen writing old paper",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "But it did not end there. The price kept climbing. Through May. Through June. People he knew were getting richer every week. Staying out began to feel like losing.",
+   "find": [
+    {
+     "q": "Exchange Alley London",
+     "kind": "commons"
+    },
+    {
+     "q": "hourglass sand",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "In the middle of June, Newton went back in. He bought again, now at prices close to the peak. And he kept buying through the summer, even when the price was starting to slip. By the time the crash came, almost all of his wealth was in South Sea stock.",
+   "find": [
+    {
+     "q": "Isaac Newton portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "candle flame dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "tension",
+   "say": "Think about how that feels. When you sell and the price keeps rising, you do not feel careful. You feel foolish. Every new high is a small punishment for being right too early. Newton felt that punishment for two months. Then he gave in.",
+   "find": [
+    {
+     "q": "Isaac Newton portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "hourglass sand",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "triumph",
+   "say": "Not everyone made his mistake. A London bookseller named Thomas Guy had also bought South Sea shares. In seventeen twenty, while prices were still high, he sold, and kept his profit. He used much of that fortune to found a hospital in London. Guy's Hospital still carries his name today.",
+   "find": [
+    {
+     "q": "Thomas Guy portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "Guy's Hospital engraving",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "mystery",
+   "say": "Two men, one stock. One sold and stayed out. The other sold, then could not stand to watch from the side. So what happened when the music stopped?",
+   "find": [
+    {
+     "q": "candle flame dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter Four",
+    "title": "The Fall"
+   },
+   "mood": "lament"
+  },
+  {
+   "mood": "lament",
+   "say": "In September seventeen twenty, the price collapsed. There was no real business underneath to hold it up, and once enough people wanted to sell, nobody wanted to buy. By the end of September, the share that had passed one thousand pounds was worth less than two hundred.",
+   "find": [
+    {
+     "q": "South Sea Scheme Hogarth",
+     "kind": "commons"
+    },
+    {
+     "q": "fire flames dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "By December, it was down to about one hundred and twenty-four pounds. Lower than where the year began.",
+   "find": [
+    {
+     "q": "Bubble 1720 satire print",
+     "kind": "commons"
+    }
+   ],
+   "stat": {
+    "value": 124,
+    "prefix": "£",
+    "suffix": "",
+    "label": "one South Sea share, December 1720",
+    "decimals": 0
+   }
+  },
+  {
+   "mood": "lament",
+   "say": "A young engraver named William Hogarth turned the madness into a picture. In his print, investors ride a merry-go-round under a sign that asks: who'll ride? Around them, the city has lost its mind. It was one of the first great satires of a stock market crash.",
+   "find": [
+    {
+     "q": "South Sea Scheme Hogarth",
+     "kind": "commons"
+    },
+    {
+     "q": "Hogarth South Sea",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "Many people who had bought late, often with borrowed money, were ruined. The public was furious. An inquiry found that government ministers had taken bribes in the form of shares. The company's cashier, Robert Knight, fled abroad. And the Chancellor of the Exchequer, John Aislabie, was sent to the Tower of London.",
+   "find": [
+    {
+     "q": "John Aislabie portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "Tower of London engraving",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "The man who calmed the storm was Robert Walpole, who had opposed the scheme. The crisis carried him to power, and he is usually called Britain's first prime minister.",
+   "find": [
+    {
+     "q": "Robert Walpole portrait",
+     "kind": "commons"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "But here is something the popular story leaves out. Historians like Helen Paul point out that the damage to Britain's wider economy was much smaller than legend says. The company itself carried on for many years afterwards. The pain fell hardest on the people who bought late, near the top. People exactly like Isaac Newton.",
+   "find": [
+    {
+     "q": "South Sea House London",
+     "kind": "commons"
+    },
+    {
+     "q": "old book pages turning",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "And Newton? A famous story says he lost twenty thousand pounds. But the economist Andrew Odlyzko studied Newton's accounts, and he estimates the real loss at about ten thousand pounds. That is still around a third of his fortune, and all of his early profit, gone.",
+   "find": [
+    {
+     "q": "Isaac Newton Kneller 1702",
+     "kind": "commons"
+    },
+    {
+     "q": "coins falling",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Newton himself wrote, in a letter in seventeen twenty-four, that he had lost very much by the South Sea company. And the famous line? That he could calculate the motions of the heavenly bodies, but not the madness of people? It is quoted everywhere, but there is no solid proof he ever said it. Treat it as a legend.",
+   "find": [
+    {
+     "q": "Newton telescope",
+     "kind": "commons"
+    },
+    {
+     "q": "starry night sky",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "card": {
+    "kicker": "Chapter Five",
+    "title": "What Newton Teaches Us"
+   },
+   "mood": "reflective"
+  },
+  {
+   "mood": "reflective",
+   "say": "So what can a crash from three hundred years ago teach us today? This is not financial advice. It is a lesson from history.",
+   "find": [
+    {
+     "q": "old book pages turning",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "First: being smart does not protect you from a crowd. Newton understood the universe. He even saw the danger early. What beat him was not a lack of brains. It was the feeling of watching other people get rich without him.",
+   "find": [
+    {
+     "q": "Isaac Newton portrait",
+     "kind": "commons"
+    },
+    {
+     "q": "candle flame dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Second: decide your exit before you buy, and then keep your word to yourself. Newton's first decision was good. His second one, made in the heat of the summer, undid it. Thomas Guy's plan was boring, and it built a hospital.",
+   "find": [
+    {
+     "q": "Guy's Hospital engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "hourglass sand",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "lament",
+   "say": "Third: when a price rises only because people expect it to keep rising, and buyers are borrowing to join in, be careful. Ask what is really underneath. In seventeen twenty, the honest answer was: not much.",
+   "find": [
+    {
+     "q": "South Sea Scheme Hogarth",
+     "kind": "commons"
+    },
+    {
+     "q": "sea waves dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Fourth: do not keep everything in one basket. By the end of seventeen twenty, almost all of Newton's wealth sat in one company. Afterwards, he slowly moved about half of it into Bank of England stock. He learned to spread his risk, but only after paying for the lesson.",
+   "find": [
+    {
+     "q": "Bank of England 18th century engraving",
+     "kind": "commons"
+    },
+    {
+     "q": "old coins close up",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Bubbles still happen. The names change, the story stays the same: a new kind of asset, a price that only goes up, friends getting rich, and easy money to join in. The South Sea Bubble is one of the oldest versions of that story, and it tends to end badly for the people who forget how the old versions ended.",
+   "find": [
+    {
+     "q": "hourglass sand",
+     "kind": "video"
+    },
+    {
+     "q": "sea waves dark",
+     "kind": "video"
+    }
+   ]
+  },
+  {
+   "mood": "reflective",
+   "say": "Next time, we travel to fourteenth-century Africa, to Mansa Musa, the king of Mali, who carried so much gold to Cairo that people said its value fell. Subscribe so you don't miss it. And tell me in the comments: if you had sold early like Newton, would you have gone back in?",
+   "find": [
+    {
+     "q": "Catalan Atlas Mansa Musa",
+     "kind": "commons"
+    },
+    {
+     "q": "gold coins",
+     "kind": "video"
+    }
+   ]
+  }
+ ]
+}

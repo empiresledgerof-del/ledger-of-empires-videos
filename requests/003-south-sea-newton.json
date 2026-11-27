@@ -1,0 +1,336 @@
+{
+ "id": "003-south-sea-newton",
+ "orient": "landscape",
+ "items": [
+  {
+   "name": "s0_0",
+   "q": "Isaac Newton Kneller 1702",
+   "kind": "commons"
+  },
+  {
+   "name": "s0_1",
+   "q": "Isaac Newton portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s0_2",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s1_0",
+   "q": "gold coins",
+   "kind": "video"
+  },
+  {
+   "name": "s1_1",
+   "q": "hourglass sand",
+   "kind": "video"
+  },
+  {
+   "name": "s2_0",
+   "q": "South Sea Scheme Hogarth",
+   "kind": "commons"
+  },
+  {
+   "name": "s2_1",
+   "q": "old book pages turning",
+   "kind": "video"
+  },
+  {
+   "name": "s4_0",
+   "q": "Robert Harley Earl of Oxford",
+   "kind": "commons"
+  },
+  {
+   "name": "s4_1",
+   "q": "Queen Anne portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s5_0",
+   "q": "South Sea House London",
+   "kind": "commons"
+  },
+  {
+   "name": "s5_1",
+   "q": "Spanish galleon painting",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_0",
+   "q": "map South America 1700",
+   "kind": "commons"
+  },
+  {
+   "name": "s6_1",
+   "q": "sea waves dark",
+   "kind": "video"
+  },
+  {
+   "name": "s7_0",
+   "q": "quill pen writing old paper",
+   "kind": "video"
+  },
+  {
+   "name": "s9_0",
+   "q": "Houses of Parliament 18th century engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s9_1",
+   "q": "Exchange Alley London",
+   "kind": "commons"
+  },
+  {
+   "name": "s10_0",
+   "q": "South Sea Bubble playing cards 1720",
+   "kind": "commons"
+  },
+  {
+   "name": "s10_1",
+   "q": "coins counting",
+   "kind": "video"
+  },
+  {
+   "name": "s11_0",
+   "q": "South Sea Bubble 1720 print",
+   "kind": "commons"
+  },
+  {
+   "name": "s12_0",
+   "q": "King George I portrait Kneller",
+   "kind": "commons"
+  },
+  {
+   "name": "s12_1",
+   "q": "Change Alley 1720",
+   "kind": "commons"
+  },
+  {
+   "name": "s13_0",
+   "q": "London coffee house 18th century",
+   "kind": "commons"
+  },
+  {
+   "name": "s13_1",
+   "q": "coins counting",
+   "kind": "video"
+  },
+  {
+   "name": "s14_0",
+   "q": "Het groote tafereel der dwaasheid",
+   "kind": "commons"
+  },
+  {
+   "name": "s14_1",
+   "q": "Bubble 1720 satire print",
+   "kind": "commons"
+  },
+  {
+   "name": "s15_0",
+   "q": "Royal Mint Tower of London",
+   "kind": "commons"
+  },
+  {
+   "name": "s17_0",
+   "q": "Isaac Newton Thornhill",
+   "kind": "commons"
+  },
+  {
+   "name": "s17_1",
+   "q": "old coins close up",
+   "kind": "video"
+  },
+  {
+   "name": "s18_0",
+   "q": "Newton Principia title page",
+   "kind": "commons"
+  },
+  {
+   "name": "s18_1",
+   "q": "quill pen writing old paper",
+   "kind": "video"
+  },
+  {
+   "name": "s19_0",
+   "q": "Exchange Alley London",
+   "kind": "commons"
+  },
+  {
+   "name": "s19_1",
+   "q": "hourglass sand",
+   "kind": "video"
+  },
+  {
+   "name": "s20_0",
+   "q": "Isaac Newton portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s20_1",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s21_0",
+   "q": "Isaac Newton portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s21_1",
+   "q": "hourglass sand",
+   "kind": "video"
+  },
+  {
+   "name": "s22_0",
+   "q": "Thomas Guy portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s22_1",
+   "q": "Guy's Hospital engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s23_0",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s25_0",
+   "q": "South Sea Scheme Hogarth",
+   "kind": "commons"
+  },
+  {
+   "name": "s25_1",
+   "q": "fire flames dark",
+   "kind": "video"
+  },
+  {
+   "name": "s26_0",
+   "q": "Bubble 1720 satire print",
+   "kind": "commons"
+  },
+  {
+   "name": "s27_0",
+   "q": "South Sea Scheme Hogarth",
+   "kind": "commons"
+  },
+  {
+   "name": "s27_1",
+   "q": "Hogarth South Sea",
+   "kind": "commons"
+  },
+  {
+   "name": "s28_0",
+   "q": "John Aislabie portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s28_1",
+   "q": "Tower of London engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s29_0",
+   "q": "Robert Walpole portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s30_0",
+   "q": "South Sea House London",
+   "kind": "commons"
+  },
+  {
+   "name": "s30_1",
+   "q": "old book pages turning",
+   "kind": "video"
+  },
+  {
+   "name": "s31_0",
+   "q": "Isaac Newton Kneller 1702",
+   "kind": "commons"
+  },
+  {
+   "name": "s31_1",
+   "q": "coins falling",
+   "kind": "video"
+  },
+  {
+   "name": "s32_0",
+   "q": "Newton telescope",
+   "kind": "commons"
+  },
+  {
+   "name": "s32_1",
+   "q": "starry night sky",
+   "kind": "video"
+  },
+  {
+   "name": "s34_0",
+   "q": "old book pages turning",
+   "kind": "video"
+  },
+  {
+   "name": "s35_0",
+   "q": "Isaac Newton portrait",
+   "kind": "commons"
+  },
+  {
+   "name": "s35_1",
+   "q": "candle flame dark",
+   "kind": "video"
+  },
+  {
+   "name": "s36_0",
+   "q": "Guy's Hospital engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s36_1",
+   "q": "hourglass sand",
+   "kind": "video"
+  },
+  {
+   "name": "s37_0",
+   "q": "South Sea Scheme Hogarth",
+   "kind": "commons"
+  },
+  {
+   "name": "s37_1",
+   "q": "sea waves dark",
+   "kind": "video"
+  },
+  {
+   "name": "s38_0",
+   "q": "Bank of England 18th century engraving",
+   "kind": "commons"
+  },
+  {
+   "name": "s38_1",
+   "q": "old coins close up",
+   "kind": "video"
+  },
+  {
+   "name": "s39_0",
+   "q": "hourglass sand",
+   "kind": "video"
+  },
+  {
+   "name": "s39_1",
+   "q": "sea waves dark",
+   "kind": "video"
+  },
+  {
+   "name": "s40_0",
+   "q": "Catalan Atlas Mansa Musa",
+   "kind": "commons"
+  },
+  {
+   "name": "s40_1",
+   "q": "gold coins",
+   "kind": "video"
+  }
+ ]
+}
