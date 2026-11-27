@@ -14,10 +14,13 @@ YouTube warning, money). Audience: English speakers abroad (US, UK, Canada, Aust
 - Stock robot: GitHub Action `fetch-stock` (Pixabay video/photo + Wikimedia Commons public-domain art), secret `PIXABAY_API_KEY`
 - vidIQ free plan: 150 credits/month (most calls 5). Budget: max ONE paid call per run, never above 140/month.
 
-## Weekly timetable (all PKT)
+## Weekly timetable (all PKT) - "Shorts first" test from 27 Nov 2026 for 4 weeks (review on 26 Dec)
+Owner decision: 4 Shorts + 1 long per week. Shorts are the focus: test hook styles (number shock, paradox, question,
+"you won't believe"), first frame + first sentence decide everything (goal 70%+ chose to view), 25-30 s.
+Each weekly report compares Shorts vs long and hook styles. ~21-22 posts/month vs 20 free: the last Shorts go to the owner by hand.
 | Run (scheduled task, ~01:13) | Makes | Posts |
 |---|---|---|
-| Mon night | long video | Tue: Slot A 20:00 (10 AM New York) or Slot B Wed 00:30 (2:30 PM NY Tue) |
+| Mon night | Short | Tue: Slot A 16:00 or Slot B Wed 02:00 (4 PM NY Tue) |
 | Wed night | Short | Thu: Slot A 16:00 or Slot B Fri 02:00 (4 PM NY Thu) |
 | Thu night | Short | Fri: Slot A 16:00 or Slot B Sat 02:00 |
 | Fri night | Short | Sat: Slot A 16:00 or Slot B Sun 02:00 |
@@ -48,7 +51,7 @@ status "draft" in state.json so the next run can use it), then report.
   (idea / packaging=CTR / content=retention) vs `predicted_7d_views`. Write dated findings to `channel/learnings.md`;
   call something a pattern only after 3+ videos. Apply what you learned today.
 
-### 2. Long video (Mon and Sat runs)
+### 2. Long video (Sat run only)
 1. **Topic**: next unused row of `channel/content_plan.md` (videos 1-8 = only "Bubbles & crashes" and "Great fortunes",
    alternating series "The Rise and Fall of..." / "How ... Got Rich"). Never repeat a story in state.json. Plan more rows when < 3 left.
 2. **Packaging first**: write 10+ title options (<= 50 chars, main keyword in the first 3 words, 2 of: number / named thing /
@@ -78,9 +81,9 @@ status "draft" in state.json so the next run can use it), then report.
    final.mp4 must be <= 95 MB (the render fits it automatically).
 8. Prediction: write `predicted_7d_views` for the video in performance.csv before posting.
 
-### 3. Short (Wed, Thu, Fri runs)
+### 3. Short (Mon, Wed, Thu, Fri runs)
 - 25-35 s, 70-85 words, `format: short`, speed 1.0. Hook in the first sentence AND as `hook` on screen. One idea, true numbers.
-- Wed run: a trailer of the latest long video (its best moment, ends on an open question, `related_long` set).
+- Mon run: a trailer of the latest long video (it went live Sunday). Wed run: a mini-story (its best moment, ends on an open question, `related_long` set).
   Thu/Fri runs: alternate a second trailer and a standalone mini-story from the same era/pillar (strong surprising fact + lesson).
 - Reuse the long video's stock: `ln -sfn ../<long-id>/stock build/<short-id>/stock`; fetch new items only when needed
   (request `orient` is portrait automatically for Shorts). 1 thumb (1080x1920). Render takes ~2 min.

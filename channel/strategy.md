@@ -126,3 +126,6 @@ can upload by hand if he wants). Track posts_this_month in state.json.
 ## Free tools only
 Claude, Kokoro voice (local), Pixabay + Wikimedia Commons public-domain images (via the GitHub robot), GitHub,
 Cloudinary free, Metricool free, vidIQ free (150 credits/month). Never buy or upgrade without asking the owner.
+
+## 27 Nov 2026 change: Shorts first (4-week test)
+First week: Short 001s 1,091 views vs long 001 3 views. Owner decision: 4 Shorts (Tue, Thu, Fri, Sat) + 1 long (Sun) per week until 26 Dec, then decide with data. Long videos stay because only they count toward the 8,000 watch hours and they are where Shorts send viewers.
