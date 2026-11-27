@@ -94,7 +94,12 @@
      "kind": "video"
     }
    ],
-   "hook": "EVEN NEWTON"
+   "hook": "EVEN NEWTON",
+   "shots": [
+    "s0_0.jpg",
+    "s0_1.jpg",
+    "s0_2.mp4@1"
+   ]
   },
   {
    "mood": "tension",
@@ -108,6 +113,10 @@
      "q": "hourglass sand",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s1_0.mp4@1",
+    "s1_1.mp4@1"
    ]
   },
   {
@@ -122,6 +131,10 @@
      "q": "old book pages turning",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s2_0.jpg",
+    "s2_1.mp4@1"
    ]
   },
   {
@@ -143,6 +156,10 @@
      "q": "Queen Anne portrait",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s4_0.jpg",
+    "s4_1.jpg"
    ]
   },
   {
@@ -157,6 +174,10 @@
      "q": "Spanish galleon painting",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s5_0.jpg",
+    "s5_1.jpg"
    ]
   },
   {
@@ -171,6 +192,10 @@
      "q": "sea waves dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s6_0.jpg",
+    "s6_1.mp4@1"
    ]
   },
   {
@@ -178,9 +203,12 @@
    "say": "That should have been the end of the excitement. Instead, in seventeen twenty, it became the beginning.",
    "find": [
     {
-     "q": "quill pen writing old paper",
+     "q": "quill ink",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s7_0.mp4@1"
    ]
   },
   {
@@ -195,13 +223,17 @@
    "say": "In the spring of seventeen twenty, Parliament accepted a much bigger plan. The South Sea Company would take on a huge part of the national debt, in exchange for new shares. The more the share price rose, the better the deal looked for the company. So the company did everything it could to make the price rise.",
    "find": [
     {
-     "q": "Houses of Parliament 18th century engraving",
+     "q": "Tillemans House of Commons",
      "kind": "commons"
     },
     {
      "q": "Exchange Alley London",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s9_0.jpg",
+    "s9_1.jpg"
    ]
   },
   {
@@ -216,6 +248,10 @@
      "q": "coins counting",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s10_0.jpg",
+    "s10_1.mp4@1"
    ]
   },
   {
@@ -233,7 +269,10 @@
     "suffix": "",
     "label": "one South Sea share, January 1720",
     "decimals": 0
-   }
+   },
+   "shots": [
+    "s11_0.png"
+   ]
   },
   {
    "mood": "triumph",
@@ -254,7 +293,11 @@
     "suffix": "+",
     "label": "the same share, summer 1720",
     "decimals": 0
-   }
+   },
+   "shots": [
+    "s12_0.jpg",
+    "s12_1.jpg"
+   ]
   },
   {
    "mood": "tension",
@@ -268,6 +311,10 @@
      "q": "coins counting",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s13_0.jpg",
+    "s13_1.mp4@1"
    ]
   },
   {
@@ -282,6 +329,10 @@
      "q": "Bubble 1720 satire print",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s14_0.jpg",
+    "s14_1.jpg"
    ]
   },
   {
@@ -292,6 +343,9 @@
      "q": "Royal Mint Tower of London",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s15_0.jpg"
    ]
   },
   {
@@ -310,7 +364,7 @@
      "kind": "commons"
     },
     {
-     "q": "old coins close up",
+     "q": "antique balance scale",
      "kind": "video"
     }
    ],
@@ -320,7 +374,11 @@
     "suffix": "",
     "label": "Newton's fortune before the bubble (estimate)",
     "decimals": 0
-   }
+   },
+   "shots": [
+    "s17_0.jpg",
+    "s17_1.mp4@1"
+   ]
   },
   {
    "mood": "reflective",
@@ -334,6 +392,10 @@
      "q": "quill pen writing old paper",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s18_0.png",
+    "s18_1.mp4@1"
    ]
   },
   {
@@ -348,6 +410,10 @@
      "q": "hourglass sand",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s19_0.jpg",
+    "s19_1.mp4@1"
    ]
   },
   {
@@ -362,6 +428,10 @@
      "q": "candle flame dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s20_0.jpg",
+    "s20_1.mp4@1"
    ]
   },
   {
@@ -376,6 +446,10 @@
      "q": "hourglass sand",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s21_0.jpg",
+    "s21_1.mp4@1"
    ]
   },
   {
@@ -383,13 +457,17 @@
    "say": "Not everyone made his mistake. A London bookseller named Thomas Guy had also bought South Sea shares. In seventeen twenty, while prices were still high, he sold, and kept his profit. He used much of that fortune to found a hospital in London. Guy's Hospital still carries his name today.",
    "find": [
     {
-     "q": "Thomas Guy portrait",
+     "q": "Thomas Guy",
      "kind": "commons"
     },
     {
      "q": "Guy's Hospital engraving",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s22_0.jpg",
+    "s22_1.jpg"
    ]
   },
   {
@@ -400,6 +478,9 @@
      "q": "candle flame dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s23_0.mp4@1"
    ]
   },
   {
@@ -421,6 +502,10 @@
      "q": "fire flames dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s25_0.png",
+    "s25_1.mp4@1"
    ]
   },
   {
@@ -438,7 +523,10 @@
     "suffix": "",
     "label": "one South Sea share, December 1720",
     "decimals": 0
-   }
+   },
+   "shots": [
+    "s26_0.jpg"
+   ]
   },
   {
    "mood": "lament",
@@ -452,6 +540,10 @@
      "q": "Hogarth South Sea",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s27_0.jpg",
+    "s27_1.jpg"
    ]
   },
   {
@@ -459,13 +551,17 @@
    "say": "Many people who had bought late, often with borrowed money, were ruined. The public was furious. An inquiry found that government ministers had taken bribes in the form of shares. The company's cashier, Robert Knight, fled abroad. And the Chancellor of the Exchequer, John Aislabie, was sent to the Tower of London.",
    "find": [
     {
-     "q": "John Aislabie portrait",
+     "q": "John Aislabie",
      "kind": "commons"
     },
     {
      "q": "Tower of London engraving",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s28_0.jpg",
+    "s28_1.jpg"
    ]
   },
   {
@@ -473,9 +569,12 @@
    "say": "The man who calmed the storm was Robert Walpole, who had opposed the scheme. The crisis carried him to power, and he is usually called Britain's first prime minister.",
    "find": [
     {
-     "q": "Robert Walpole portrait",
+     "q": "Sir Robert Walpole",
      "kind": "commons"
     }
+   ],
+   "shots": [
+    "s29_0.jpg"
    ]
   },
   {
@@ -490,6 +589,9 @@
      "q": "old book pages turning",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s30_1.mp4@1"
    ]
   },
   {
@@ -504,6 +606,9 @@
      "q": "coins falling",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s31_1.mp4@1"
    ]
   },
   {
@@ -511,13 +616,16 @@
    "say": "Newton himself wrote, in a letter in seventeen twenty-four, that he had lost very much by the South Sea company. And the famous line? That he could calculate the motions of the heavenly bodies, but not the madness of people? It is quoted everywhere, but there is no solid proof he ever said it. Treat it as a legend.",
    "find": [
     {
-     "q": "Newton telescope",
+     "q": "Newton reflecting telescope",
      "kind": "commons"
     },
     {
      "q": "starry night sky",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s32_1.mp4@1"
    ]
   },
   {
@@ -532,9 +640,12 @@
    "say": "So what can a crash from three hundred years ago teach us today? This is not financial advice. It is a lesson from history.",
    "find": [
     {
-     "q": "old book pages turning",
+     "q": "antique book candle",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s34_0.mp4@1"
    ]
   },
   {
@@ -549,6 +660,10 @@
      "q": "candle flame dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s35_0.jpg",
+    "s35_1.mp4@1"
    ]
   },
   {
@@ -563,6 +678,9 @@
      "q": "hourglass sand",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s36_1.mp4@1"
    ]
   },
   {
@@ -577,6 +695,10 @@
      "q": "sea waves dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s37_0.jpg",
+    "s37_1.mp4@1"
    ]
   },
   {
@@ -584,14 +706,15 @@
    "say": "Fourth: do not keep everything in one basket. By the end of seventeen twenty, almost all of Newton's wealth sat in one company. Afterwards, he slowly moved about half of it into Bank of England stock. He learned to spread his risk, but only after paying for the lesson.",
    "find": [
     {
-     "q": "Bank of England 18th century engraving",
+     "q": "Bank of England Threadneedle",
      "kind": "commons"
     },
     {
      "q": "old coins close up",
      "kind": "video"
     }
-   ]
+   ],
+   "shots": []
   },
   {
    "mood": "reflective",
@@ -605,6 +728,10 @@
      "q": "sea waves dark",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s39_0.mp4@1",
+    "s39_1.mp4@1"
    ]
   },
   {
@@ -619,6 +746,9 @@
      "q": "gold coins",
      "kind": "video"
     }
+   ],
+   "shots": [
+    "s40_1.mp4@1"
    ]
   }
  ]

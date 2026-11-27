@@ -1,0 +1,56 @@
+{
+ "id": "003-south-sea-newton-b",
+ "orient": "landscape",
+ "items": [
+  {
+   "name": "s7_0",
+   "q": "quill ink",
+   "kind": "video"
+  },
+  {
+   "name": "s9_0",
+   "q": "Tillemans House of Commons",
+   "kind": "commons"
+  },
+  {
+   "name": "s17_1",
+   "q": "antique balance scale",
+   "kind": "video"
+  },
+  {
+   "name": "s22_0",
+   "q": "Thomas Guy",
+   "kind": "commons"
+  },
+  {
+   "name": "s28_0",
+   "q": "John Aislabie",
+   "kind": "commons"
+  },
+  {
+   "name": "s29_0",
+   "q": "Sir Robert Walpole",
+   "kind": "commons"
+  },
+  {
+   "name": "s32_0",
+   "q": "Newton reflecting telescope",
+   "kind": "commons"
+  },
+  {
+   "name": "s34_0",
+   "q": "antique book candle",
+   "kind": "video"
+  },
+  {
+   "name": "s38_0",
+   "q": "Bank of England Threadneedle",
+   "kind": "commons"
+  },
+  {
+   "name": "s40_0",
+   "q": "Catalan Atlas Mansa Musa",
+   "kind": "commons"
+  }
+ ]
+}
