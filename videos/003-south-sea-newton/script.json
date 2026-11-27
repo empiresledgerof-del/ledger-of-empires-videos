@@ -223,7 +223,7 @@
    "say": "In the spring of seventeen twenty, Parliament accepted a much bigger plan. The South Sea Company would take on a huge part of the national debt, in exchange for new shares. The more the share price rose, the better the deal looked for the company. So the company did everything it could to make the price rise.",
    "find": [
     {
-     "q": "Tillemans House of Commons",
+     "q": "House of Commons 1710",
      "kind": "commons"
     },
     {
@@ -232,8 +232,8 @@
     }
    ],
    "shots": [
-    "s9_0.jpg",
-    "s9_1.jpg"
+    "s9_1.jpg",
+    "s9_0.jpg"
    ]
   },
   {
@@ -457,7 +457,7 @@
    "say": "Not everyone made his mistake. A London bookseller named Thomas Guy had also bought South Sea shares. In seventeen twenty, while prices were still high, he sold, and kept his profit. He used much of that fortune to found a hospital in London. Guy's Hospital still carries his name today.",
    "find": [
     {
-     "q": "Thomas Guy",
+     "q": "Thomas Guy statue",
      "kind": "commons"
     },
     {
@@ -466,7 +466,6 @@
     }
    ],
    "shots": [
-    "s22_0.jpg",
     "s22_1.jpg"
    ]
   },
@@ -560,8 +559,8 @@
     }
    ],
    "shots": [
-    "s28_0.jpg",
-    "s28_1.jpg"
+    "s28_1.jpg",
+    "s28_0.jpg"
    ]
   },
   {
@@ -569,7 +568,7 @@
    "say": "The man who calmed the storm was Robert Walpole, who had opposed the scheme. The crisis carried him to power, and he is usually called Britain's first prime minister.",
    "find": [
     {
-     "q": "Sir Robert Walpole",
+     "q": "Walpole 1st Earl of Orford",
      "kind": "commons"
     }
    ],
@@ -625,7 +624,8 @@
     }
    ],
    "shots": [
-    "s32_1.mp4@1"
+    "s32_1.mp4@1",
+    "s32_0.jpg"
    ]
   },
   {
@@ -714,7 +714,9 @@
      "kind": "video"
     }
    ],
-   "shots": []
+   "shots": [
+    "s38_0.jpg"
+   ]
   },
   {
    "mood": "reflective",
@@ -748,7 +750,8 @@
     }
    ],
    "shots": [
-    "s40_1.mp4@1"
+    "s40_1.mp4@1",
+    "s40_0.jpg"
    ]
   }
  ]
